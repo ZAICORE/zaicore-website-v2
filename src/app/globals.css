@@ -1,26 +1,168 @@
 @import "tailwindcss";
 
+/* ==========================================================================
+   ZAICORE engineering site — design tokens
+   ========================================================================== */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Surfaces */
+  --cream: #faf7f2;
+  --cream-soft: #f4efe6;
+  --paper: #ffffff;
+  --ink: #0e0e10;
+  --ink-soft: #1a1a1c;
+  --muted: #5a5a60;
+  --muted-soft: #8c8c93;
+  --hairline: #e6e2db;
+  --hairline-strong: #d7d1c6;
+
+  /* Brand — engineering */
+  --lapis: #1a2744;
+  --lapis-glow: #2e4f8c;
+  --lapis-mist: rgba(46, 79, 140, 0.12);
+
+  /* Brand — security crosslink (echoes security.zaicore.com) */
+  --signal: #2cdde9;
+  --signal-soft: rgba(44, 221, 233, 0.16);
+
+  /* Warmth accents */
+  --ember: #e9b061;
+  --ember-soft: rgba(233, 176, 97, 0.18);
+
+  /* Motion */
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out-soft: cubic-bezier(0.65, 0, 0.35, 1);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-cream: var(--cream);
+  --color-cream-soft: var(--cream-soft);
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-muted: var(--muted);
+  --color-muted-soft: var(--muted-soft);
+  --color-hairline: var(--hairline);
+  --color-hairline-strong: var(--hairline-strong);
+  --color-lapis: var(--lapis);
+  --color-lapis-glow: var(--lapis-glow);
+  --color-signal: var(--signal);
+  --color-ember: var(--ember);
+
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-instrument-serif), ui-serif, Georgia, serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+html, body {
+  background: var(--cream);
+  color: var(--ink);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--ink);
+  color: var(--cream);
+}
+
+/* ==========================================================================
+   Utilities
+   ========================================================================== */
+
+.serif-italic {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+}
+
+.display {
+  font-family: var(--font-sans);
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  line-height: 1.02;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.68rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+/* Aurora fallback — hero media placeholder until Seedance is generated */
+.fallback-aurora {
+  background:
+    radial-gradient(80% 60% at 75% 30%, rgba(46, 79, 140, 0.45), transparent 60%),
+    radial-gradient(60% 80% at 20% 80%, rgba(233, 176, 97, 0.32), transparent 65%),
+    radial-gradient(100% 100% at 50% 50%, rgba(44, 221, 233, 0.16), transparent 70%),
+    linear-gradient(180deg, #0a0f1c 0%, #111a30 60%, #0a0f1c 100%);
+}
+
+.fallback-lapis {
+  background:
+    radial-gradient(70% 60% at 30% 40%, rgba(46, 79, 140, 0.5), transparent 60%),
+    linear-gradient(145deg, #0d1428, #1a2744 60%, #0a0f1c);
+}
+
+.fallback-cream {
+  background:
+    radial-gradient(60% 50% at 50% 40%, rgba(233, 176, 97, 0.18), transparent 60%),
+    linear-gradient(180deg, var(--cream), var(--cream-soft));
+}
+
+.fallback-signal {
+  background:
+    radial-gradient(70% 60% at 70% 30%, rgba(44, 221, 233, 0.28), transparent 65%),
+    radial-gradient(60% 60% at 20% 70%, rgba(46, 79, 140, 0.35), transparent 65%),
+    linear-gradient(180deg, #0a1020 0%, #0d1428 100%);
+}
+
+/* Subtle grain — one thin layer */
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.06;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.8 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+
+/* Star field — subtle, for dark media fallbacks */
+.stars::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(1px 1px at 12% 22%, rgba(255, 255, 255, 0.7), transparent 60%),
+    radial-gradient(1px 1px at 28% 68%, rgba(255, 255, 255, 0.5), transparent 60%),
+    radial-gradient(1px 1px at 54% 12%, rgba(255, 255, 255, 0.6), transparent 60%),
+    radial-gradient(1px 1px at 72% 45%, rgba(255, 255, 255, 0.4), transparent 60%),
+    radial-gradient(1px 1px at 85% 78%, rgba(255, 255, 255, 0.55), transparent 60%),
+    radial-gradient(1px 1px at 38% 88%, rgba(255, 255, 255, 0.45), transparent 60%),
+    radial-gradient(1.5px 1.5px at 62% 30%, rgba(255, 255, 255, 0.75), transparent 60%);
+}
+
+/* Reduced motion respect */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
