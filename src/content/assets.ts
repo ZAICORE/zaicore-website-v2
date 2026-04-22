@@ -36,14 +36,16 @@ export const assets: Record<string, MediaAsset> = {
   },
   mascotEngineer: {
     id: "mascotEngineer",
-    kind: "video",
+    kind: "image",
     src: "",
+    alt: "Eli — engineering mascot",
     fallback: "cream",
   },
   mascotSentinel: {
     id: "mascotSentinel",
-    kind: "video",
+    kind: "image",
     src: "",
-    fallback: "cream",
+    alt: "Vela — security mascot",
+    fallback: "lapis",
   },
 };

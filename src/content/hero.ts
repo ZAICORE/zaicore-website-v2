@@ -1,15 +1,17 @@
 export const hero = {
   eyebrow: "Zaicore Software Solutions Inc.",
   headline: {
-    lead: "We build AI systems",
-    italic: "that quietly change things.",
+    lead: "We build what",
+    italic: "off-the-shelf can't.",
   },
   subline:
-    "Engineering studio and cybersecurity product company. We design, build, and protect — for the people who have to trust the work.",
+    "Proprietary software, AI systems, and security — engineered to how your team actually operates. We change how you work, not just what you use.",
   ctas: [
     { label: "See the engineering", href: "#engineering", variant: "primary" as const },
     { label: "Try ZAICORE Security", href: "https://security.zaicore.com", variant: "accent" as const, external: true },
   ],
-  mediaId: "heroMedia",
-  mascotId: "mascotEngineer",
+  mascots: {
+    left: { id: "mascotEngineer", label: "Engineering" },
+    right: { id: "mascotSentinel", label: "Security" },
+  },
 };

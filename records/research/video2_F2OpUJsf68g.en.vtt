@@ -1,0 +1,2040 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.390 align:start position:0%
+ 
+In<00:00:00.200><c> today's</c><00:00:00.480><c> video,</c><00:00:00.800><c> I'm</c><00:00:00.920><c> going</c><00:00:01.040><c> to</c><00:00:01.120><c> show</c><00:00:01.280><c> you</c>
+
+00:00:01.390 --> 00:00:01.400 align:start position:0%
+In today's video, I'm going to show you
+ 
+
+00:00:01.400 --> 00:00:03.190 align:start position:0%
+In today's video, I'm going to show you
+guys<00:00:01.680><c> how</c><00:00:01.760><c> to</c><00:00:01.880><c> create</c><00:00:02.200><c> really</c><00:00:02.640><c> impressive</c>
+
+00:00:03.190 --> 00:00:03.200 align:start position:0%
+guys how to create really impressive
+ 
+
+00:00:03.200 --> 00:00:05.510 align:start position:0%
+guys how to create really impressive
+websites<00:00:03.880><c> using</c><00:00:04.200><c> Claude</c><00:00:04.600><c> code.</c><00:00:05.040><c> And</c><00:00:05.200><c> to</c><00:00:05.280><c> bring</c>
+
+00:00:05.510 --> 00:00:05.520 align:start position:0%
+websites using Claude code. And to bring
+ 
+
+00:00:05.520 --> 00:00:07.030 align:start position:0%
+websites using Claude code. And to bring
+it<00:00:05.640><c> to</c><00:00:05.760><c> life,</c><00:00:05.960><c> we're</c><00:00:06.040><c> going</c><00:00:06.160><c> to</c><00:00:06.240><c> use</c><00:00:06.520><c> Seed</c><00:00:06.800><c> ants</c>
+
+00:00:07.030 --> 00:00:07.040 align:start position:0%
+it to life, we're going to use Seed ants
+ 
+
+00:00:07.040 --> 00:00:09.350 align:start position:0%
+it to life, we're going to use Seed ants
+2.0,<00:00:07.760><c> which</c><00:00:07.960><c> is</c><00:00:08.080><c> a</c><00:00:08.120><c> new</c><00:00:08.320><c> model</c><00:00:08.720><c> available</c><00:00:09.200><c> on</c>
+
+00:00:09.350 --> 00:00:09.360 align:start position:0%
+2.0, which is a new model available on
+ 
+
+00:00:09.360 --> 00:00:11.350 align:start position:0%
+2.0, which is a new model available on
+Higgs<00:00:09.640><c> Field.</c><00:00:10.320><c> And</c><00:00:10.480><c> Higgs</c><00:00:10.680><c> Field</c><00:00:10.960><c> are</c><00:00:11.080><c> also</c>
+
+00:00:11.350 --> 00:00:11.360 align:start position:0%
+Higgs Field. And Higgs Field are also
+ 
+
+00:00:11.360 --> 00:00:16.190 align:start position:0%
+Higgs Field. And Higgs Field are also
+the<00:00:11.480><c> sponsor</c><00:00:12.000><c> of</c><00:00:12.120><c> today's</c><00:00:12.400><c> video.</c><00:00:12.960><c> Let's</c><00:00:13.160><c> go.</c>
+
+00:00:16.190 --> 00:00:16.200 align:start position:0%
+ 
+ 
+
+00:00:16.200 --> 00:00:17.470 align:start position:0%
+ 
+You<00:00:16.400><c> guys</c><00:00:16.600><c> can</c><00:00:16.720><c> either</c><00:00:16.920><c> follow</c><00:00:17.160><c> along</c><00:00:17.400><c> with</c>
+
+00:00:17.470 --> 00:00:17.480 align:start position:0%
+You guys can either follow along with
+ 
+
+00:00:17.480 --> 00:00:19.430 align:start position:0%
+You guys can either follow along with
+this<00:00:17.640><c> video</c><00:00:17.920><c> with</c><00:00:18.120><c> your</c><00:00:18.280><c> own</c><00:00:18.480><c> design,</c><00:00:19.000><c> or</c><00:00:19.320><c> I'll</c>
+
+00:00:19.430 --> 00:00:19.440 align:start position:0%
+this video with your own design, or I'll
+ 
+
+00:00:19.440 --> 00:00:21.190 align:start position:0%
+this video with your own design, or I'll
+put<00:00:19.640><c> the</c><00:00:19.760><c> link</c><00:00:20.120><c> for</c><00:00:20.280><c> this</c><00:00:20.520><c> design</c><00:00:20.960><c> in</c><00:00:21.080><c> the</c>
+
+00:00:21.190 --> 00:00:21.200 align:start position:0%
+put the link for this design in the
+ 
+
+00:00:21.200 --> 00:00:22.630 align:start position:0%
+put the link for this design in the
+description,<00:00:21.760><c> so</c><00:00:21.880><c> you</c><00:00:22.000><c> could</c><00:00:22.200><c> use</c><00:00:22.400><c> this</c>
+
+00:00:22.630 --> 00:00:22.640 align:start position:0%
+description, so you could use this
+ 
+
+00:00:22.640 --> 00:00:24.790 align:start position:0%
+description, so you could use this
+specifically.<00:00:23.520><c> If</c><00:00:23.600><c> you</c><00:00:23.720><c> pay</c><00:00:23.960><c> for</c><00:00:24.120><c> Figma,</c><00:00:24.640><c> you</c>
+
+00:00:24.790 --> 00:00:24.800 align:start position:0%
+specifically. If you pay for Figma, you
+ 
+
+00:00:24.800 --> 00:00:26.710 align:start position:0%
+specifically. If you pay for Figma, you
+can<00:00:24.960><c> go</c><00:00:25.080><c> down</c><00:00:25.360><c> here,</c><00:00:26.080><c> and</c><00:00:26.200><c> then</c><00:00:26.360><c> you</c><00:00:26.400><c> can</c><00:00:26.520><c> click</c>
+
+00:00:26.710 --> 00:00:26.720 align:start position:0%
+can go down here, and then you can click
+ 
+
+00:00:26.720 --> 00:00:29.030 align:start position:0%
+can go down here, and then you can click
+on<00:00:26.880><c> dev</c><00:00:27.200><c> mode,</c><00:00:27.960><c> and</c><00:00:28.080><c> then</c><00:00:28.280><c> right</c><00:00:28.520><c> over</c><00:00:28.760><c> here</c>
+
+00:00:29.030 --> 00:00:29.040 align:start position:0%
+on dev mode, and then right over here
+ 
+
+00:00:29.040 --> 00:00:31.710 align:start position:0%
+on dev mode, and then right over here
+where<00:00:29.160><c> it</c><00:00:29.280><c> says</c><00:00:29.560><c> MC</c><00:00:30.040><c> P,</c><00:00:30.680><c> you</c><00:00:30.840><c> can</c><00:00:30.960><c> just</c><00:00:31.320><c> copy</c>
+
+00:00:31.710 --> 00:00:31.720 align:start position:0%
+where it says MC P, you can just copy
+ 
+
+00:00:31.720 --> 00:00:33.750 align:start position:0%
+where it says MC P, you can just copy
+this<00:00:31.840><c> example</c><00:00:32.360><c> prompt.</c><00:00:33.000><c> But</c><00:00:33.120><c> to</c><00:00:33.200><c> make</c><00:00:33.360><c> this</c><00:00:33.560><c> as</c>
+
+00:00:33.750 --> 00:00:33.760 align:start position:0%
+this example prompt. But to make this as
+ 
+
+00:00:33.760 --> 00:00:35.270 align:start position:0%
+this example prompt. But to make this as
+inclusive<00:00:34.320><c> as</c><00:00:34.480><c> possible,</c><00:00:34.840><c> let's</c><00:00:35.040><c> say</c><00:00:35.160><c> you</c>
+
+00:00:35.270 --> 00:00:35.280 align:start position:0%
+inclusive as possible, let's say you
+ 
+
+00:00:35.280 --> 00:00:37.910 align:start position:0%
+inclusive as possible, let's say you
+don't<00:00:35.480><c> have</c><00:00:35.720><c> a</c><00:00:35.800><c> Figma</c><00:00:36.200><c> subscription,</c><00:00:37.240><c> then</c><00:00:37.720><c> we</c>
+
+00:00:37.910 --> 00:00:37.920 align:start position:0%
+don't have a Figma subscription, then we
+ 
+
+00:00:37.920 --> 00:00:39.630 align:start position:0%
+don't have a Figma subscription, then we
+can<00:00:38.120><c> just</c><00:00:38.360><c> do</c><00:00:38.480><c> it</c><00:00:38.600><c> this</c><00:00:38.840><c> way.</c><00:00:39.040><c> We'll</c><00:00:39.200><c> just</c><00:00:39.400><c> take</c>
+
+00:00:39.630 --> 00:00:39.640 align:start position:0%
+can just do it this way. We'll just take
+ 
+
+00:00:39.640 --> 00:00:42.470 align:start position:0%
+can just do it this way. We'll just take
+a<00:00:39.720><c> screenshot</c><00:00:40.760><c> of</c><00:00:40.960><c> our</c><00:00:41.200><c> design</c><00:00:41.720><c> like</c><00:00:41.920><c> this,</c>
+
+00:00:42.470 --> 00:00:42.480 align:start position:0%
+a screenshot of our design like this,
+ 
+
+00:00:42.480 --> 00:00:43.630 align:start position:0%
+a screenshot of our design like this,
+and<00:00:42.600><c> we'll</c><00:00:42.760><c> pull</c>
+
+00:00:43.630 --> 00:00:43.640 align:start position:0%
+and we'll pull
+ 
+
+00:00:43.640 --> 00:00:45.350 align:start position:0%
+and we'll pull
+Claude.<00:00:43.960><c> So,</c><00:00:44.080><c> we'll</c><00:00:44.280><c> drag</c><00:00:44.560><c> this</c><00:00:44.760><c> screenshot</c>
+
+00:00:45.350 --> 00:00:45.360 align:start position:0%
+Claude. So, we'll drag this screenshot
+ 
+
+00:00:45.360 --> 00:00:46.990 align:start position:0%
+Claude. So, we'll drag this screenshot
+into<00:00:45.640><c> here,</c><00:00:46.000><c> and</c><00:00:46.160><c> we'll</c><00:00:46.320><c> give</c><00:00:46.440><c> it</c><00:00:46.520><c> this</c><00:00:46.680><c> prompt</c>
+
+00:00:46.990 --> 00:00:47.000 align:start position:0%
+into here, and we'll give it this prompt
+ 
+
+00:00:47.000 --> 00:00:48.670 align:start position:0%
+into here, and we'll give it this prompt
+here.<00:00:47.200><c> Make</c><00:00:47.400><c> this</c><00:00:47.560><c> into</c><00:00:47.760><c> a</c><00:00:47.800><c> full-screen</c><00:00:48.400><c> hero</c>
+
+00:00:48.670 --> 00:00:48.680 align:start position:0%
+here. Make this into a full-screen hero
+ 
+
+00:00:48.680 --> 00:00:50.790 align:start position:0%
+here. Make this into a full-screen hero
+section<00:00:49.080><c> of</c><00:00:49.160><c> website.</c><00:00:49.680><c> The</c><00:00:49.800><c> font</c><00:00:50.080><c> is</c><00:00:50.200><c> Manrope.</c>
+
+00:00:50.790 --> 00:00:50.800 align:start position:0%
+section of website. The font is Manrope.
+ 
+
+00:00:50.800 --> 00:00:52.910 align:start position:0%
+section of website. The font is Manrope.
+The<00:00:50.920><c> H1</c><00:00:51.440><c> is</c><00:00:51.520><c> 80</c><00:00:51.760><c> pixel</c><00:00:52.080><c> size.</c><00:00:52.440><c> We'll</c><00:00:52.560><c> make</c><00:00:52.720><c> sure</c>
+
+00:00:52.910 --> 00:00:52.920 align:start position:0%
+The H1 is 80 pixel size. We'll make sure
+ 
+
+00:00:52.920 --> 00:00:55.630 align:start position:0%
+The H1 is 80 pixel size. We'll make sure
+that<00:00:53.080><c> Opus</c><00:00:53.440><c> 4.6</c><00:00:54.400><c> is</c><00:00:54.600><c> selected,</c><00:00:55.240><c> and</c><00:00:55.320><c> we'll</c><00:00:55.440><c> run</c>
+
+00:00:55.630 --> 00:00:55.640 align:start position:0%
+that Opus 4.6 is selected, and we'll run
+ 
+
+00:00:55.640 --> 00:00:58.030 align:start position:0%
+that Opus 4.6 is selected, and we'll run
+it.<00:00:56.280><c> And</c><00:00:56.440><c> this</c><00:00:56.680><c> here</c><00:00:57.160><c> is</c><00:00:57.320><c> what</c><00:00:57.440><c> it's</c><00:00:57.560><c> given</c><00:00:57.840><c> us.</c>
+
+00:00:58.030 --> 00:00:58.040 align:start position:0%
+it. And this here is what it's given us.
+ 
+
+00:00:58.040 --> 00:00:59.750 align:start position:0%
+it. And this here is what it's given us.
+So,<00:00:58.280><c> this</c><00:00:58.640><c> has</c><00:00:58.760><c> done</c><00:00:58.880><c> a</c><00:00:58.960><c> pretty</c><00:00:59.160><c> good</c><00:00:59.360><c> job,</c><00:00:59.680><c> you</c>
+
+00:00:59.750 --> 00:00:59.760 align:start position:0%
+So, this has done a pretty good job, you
+ 
+
+00:00:59.760 --> 00:01:01.230 align:start position:0%
+So, this has done a pretty good job, you
+know.<00:01:00.000><c> It's</c><00:01:00.160><c> even</c><00:01:00.400><c> managed</c><00:01:00.720><c> to</c><00:01:00.800><c> kind</c><00:01:00.960><c> of</c><00:01:01.040><c> make</c>
+
+00:01:01.230 --> 00:01:01.240 align:start position:0%
+know. It's even managed to kind of make
+ 
+
+00:01:01.240 --> 00:01:02.990 align:start position:0%
+know. It's even managed to kind of make
+a<00:01:01.320><c> button,</c><00:01:01.920><c> and</c><00:01:02.160><c> where</c><00:01:02.280><c> we</c><00:01:02.400><c> didn't</c><00:01:02.640><c> have</c><00:01:02.880><c> an</c>
+
+00:01:02.990 --> 00:01:03.000 align:start position:0%
+a button, and where we didn't have an
+ 
+
+00:01:03.000 --> 00:01:04.990 align:start position:0%
+a button, and where we didn't have an
+actual<00:01:03.360><c> icon</c><00:01:03.760><c> file,</c><00:01:04.120><c> it's</c><00:01:04.280><c> kind</c><00:01:04.440><c> of</c><00:01:04.519><c> just</c><00:01:04.760><c> made</c>
+
+00:01:04.990 --> 00:01:05.000 align:start position:0%
+actual icon file, it's kind of just made
+ 
+
+00:01:05.000 --> 00:01:06.630 align:start position:0%
+actual icon file, it's kind of just made
+one.<00:01:05.360><c> Now,</c><00:01:05.480><c> at</c><00:01:05.600><c> this</c><00:01:05.760><c> point</c><00:01:06.000><c> in</c><00:01:06.080><c> my</c><00:01:06.200><c> workflow,</c>
+
+00:01:06.630 --> 00:01:06.640 align:start position:0%
+one. Now, at this point in my workflow,
+ 
+
+00:01:06.640 --> 00:01:08.350 align:start position:0%
+one. Now, at this point in my workflow,
+this<00:01:06.800><c> is</c><00:01:06.920><c> typically</c><00:01:07.440><c> where</c><00:01:07.600><c> I</c><00:01:07.680><c> go</c><00:01:07.920><c> from</c><00:01:08.240><c> the</c>
+
+00:01:08.350 --> 00:01:08.360 align:start position:0%
+this is typically where I go from the
+ 
+
+00:01:08.360 --> 00:01:11.070 align:start position:0%
+this is typically where I go from the
+desktop<00:01:08.960><c> app</c><00:01:09.520><c> into</c><00:01:09.800><c> terminal</c><00:01:10.480><c> using</c><00:01:10.760><c> Claude.</c>
+
+00:01:11.070 --> 00:01:11.080 align:start position:0%
+desktop app into terminal using Claude.
+ 
+
+00:01:11.080 --> 00:01:12.630 align:start position:0%
+desktop app into terminal using Claude.
+Now,<00:01:11.200><c> you</c><00:01:11.280><c> can</c><00:01:11.400><c> simply</c><00:01:11.760><c> just</c><00:01:12.000><c> ask</c><00:01:12.280><c> Claude,</c><00:01:12.560><c> "I</c>
+
+00:01:12.630 --> 00:01:12.640 align:start position:0%
+Now, you can simply just ask Claude, "I
+ 
+
+00:01:12.640 --> 00:01:14.510 align:start position:0%
+Now, you can simply just ask Claude, "I
+want<00:01:12.840><c> to</c><00:01:12.880><c> continue</c><00:01:13.320><c> this</c><00:01:13.600><c> with</c><00:01:13.840><c> Claude</c><00:01:14.240><c> in</c><00:01:14.400><c> the</c>
+
+00:01:14.510 --> 00:01:14.520 align:start position:0%
+want to continue this with Claude in the
+ 
+
+00:01:14.520 --> 00:01:16.190 align:start position:0%
+want to continue this with Claude in the
+terminal.<00:01:14.960><c> How</c><00:01:15.120><c> do</c><00:01:15.280><c> I</c><00:01:15.320><c> do</c><00:01:15.560><c> that?"</c><00:01:15.960><c> So,</c><00:01:16.040><c> now</c>
+
+00:01:16.190 --> 00:01:16.200 align:start position:0%
+terminal. How do I do that?" So, now
+ 
+
+00:01:16.200 --> 00:01:17.590 align:start position:0%
+terminal. How do I do that?" So, now
+we've<00:01:16.320><c> got</c><00:01:16.440><c> our</c><00:01:16.520><c> website</c><00:01:16.920><c> on</c><00:01:17.040><c> the</c><00:01:17.120><c> left,</c><00:01:17.520><c> and</c>
+
+00:01:17.590 --> 00:01:17.600 align:start position:0%
+we've got our website on the left, and
+ 
+
+00:01:17.600 --> 00:01:19.190 align:start position:0%
+we've got our website on the left, and
+we've<00:01:17.720><c> got</c><00:01:17.880><c> Claude</c><00:01:18.240><c> on</c><00:01:18.440><c> the</c><00:01:18.520><c> right.</c><00:01:18.760><c> This</c><00:01:18.920><c> here</c>
+
+00:01:19.190 --> 00:01:19.200 align:start position:0%
+we've got Claude on the right. This here
+ 
+
+00:01:19.200 --> 00:01:20.910 align:start position:0%
+we've got Claude on the right. This here
+is<00:01:19.320><c> where</c><00:01:19.440><c> we</c><00:01:19.560><c> can</c><00:01:19.720><c> make</c><00:01:19.880><c> micro</c><00:01:20.280><c> adjustments.</c>
+
+00:01:20.910 --> 00:01:20.920 align:start position:0%
+is where we can make micro adjustments.
+ 
+
+00:01:20.920 --> 00:01:22.510 align:start position:0%
+is where we can make micro adjustments.
+So,<00:01:21.040><c> like</c><00:01:21.240><c> for</c><00:01:21.360><c> example,</c><00:01:21.800><c> the</c><00:01:21.920><c> H1</c><00:01:22.280><c> should</c><00:01:22.440><c> be</c>
+
+00:01:22.510 --> 00:01:22.520 align:start position:0%
+So, like for example, the H1 should be
+ 
+
+00:01:22.520 --> 00:01:24.550 align:start position:0%
+So, like for example, the H1 should be
+regular<00:01:23.120><c> and</c><00:01:23.400><c> semi-bold</c><00:01:23.960><c> weight,</c><00:01:24.360><c> and</c><00:01:24.440><c> then</c>
+
+00:01:24.550 --> 00:01:24.560 align:start position:0%
+regular and semi-bold weight, and then
+ 
+
+00:01:24.560 --> 00:01:26.990 align:start position:0%
+regular and semi-bold weight, and then
+the<00:01:24.640><c> star</c><00:01:25.120><c> icon</c><00:01:25.440><c> at</c><00:01:25.560><c> the</c><00:01:25.680><c> end</c><00:01:25.840><c> of</c><00:01:25.920><c> the</c><00:01:26.000><c> 3D</c><00:01:26.360><c> magic</c>
+
+00:01:26.990 --> 00:01:27.000 align:start position:0%
+the star icon at the end of the 3D magic
+ 
+
+00:01:27.000 --> 00:01:29.190 align:start position:0%
+the star icon at the end of the 3D magic
+is<00:01:27.040><c> not</c><00:01:27.440><c> shown</c><00:01:27.720><c> correctly.</c><00:01:28.360><c> Let's</c><00:01:28.560><c> run</c><00:01:28.760><c> this.</c>
+
+00:01:29.190 --> 00:01:29.200 align:start position:0%
+is not shown correctly. Let's run this.
+ 
+
+00:01:29.200 --> 00:01:31.470 align:start position:0%
+is not shown correctly. Let's run this.
+So,<00:01:29.320><c> now</c><00:01:29.480><c> we</c><00:01:29.560><c> can</c><00:01:29.720><c> refresh</c><00:01:30.160><c> page,</c>
+
+00:01:31.470 --> 00:01:31.480 align:start position:0%
+So, now we can refresh page,
+ 
+
+00:01:31.480 --> 00:01:32.750 align:start position:0%
+So, now we can refresh page,
+and<00:01:31.800><c> that's</c><00:01:32.040><c> looking</c><00:01:32.240><c> pretty</c><00:01:32.400><c> good.</c><00:01:32.640><c> Now,</c>
+
+00:01:32.750 --> 00:01:32.760 align:start position:0%
+and that's looking pretty good. Now,
+ 
+
+00:01:32.760 --> 00:01:35.590 align:start position:0%
+and that's looking pretty good. Now,
+it's<00:01:33.040><c> actually</c><00:01:33.400><c> using</c><00:01:33.880><c> an</c><00:01:34.000><c> emoji,</c><00:01:34.600><c> but</c><00:01:35.480><c> we'll</c>
+
+00:01:35.590 --> 00:01:35.600 align:start position:0%
+it's actually using an emoji, but we'll
+ 
+
+00:01:35.600 --> 00:01:37.270 align:start position:0%
+it's actually using an emoji, but we'll
+keep<00:01:35.760><c> that</c><00:01:36.000><c> for</c><00:01:36.120><c> now.</c><00:01:36.560><c> So,</c><00:01:36.680><c> in</c><00:01:36.760><c> the</c><00:01:36.880><c> Figma,</c>
+
+00:01:37.270 --> 00:01:37.280 align:start position:0%
+keep that for now. So, in the Figma,
+ 
+
+00:01:37.280 --> 00:01:39.350 align:start position:0%
+keep that for now. So, in the Figma,
+I've<00:01:37.400><c> got</c><00:01:37.520><c> this</c><00:01:37.720><c> SVG,</c><00:01:38.400><c> this</c><00:01:38.600><c> sort</c><00:01:38.800><c> of</c><00:01:38.920><c> grids</c>
+
+00:01:39.350 --> 00:01:39.360 align:start position:0%
+I've got this SVG, this sort of grids
+ 
+
+00:01:39.360 --> 00:01:40.910 align:start position:0%
+I've got this SVG, this sort of grids
+type<00:01:39.600><c> thing.</c><00:01:39.920><c> Well,</c><00:01:40.080><c> we're</c><00:01:40.200><c> going</c><00:01:40.320><c> to</c><00:01:40.440><c> export</c>
+
+00:01:40.910 --> 00:01:40.920 align:start position:0%
+type thing. Well, we're going to export
+ 
+
+00:01:40.920 --> 00:01:43.750 align:start position:0%
+type thing. Well, we're going to export
+this<00:01:41.200><c> out</c><00:01:41.800><c> as</c><00:01:41.920><c> an</c><00:01:42.040><c> SVG.</c><00:01:42.920><c> In</c><00:01:43.080><c> our</c><00:01:43.240><c> project</c>
+
+00:01:43.750 --> 00:01:43.760 align:start position:0%
+this out as an SVG. In our project
+ 
+
+00:01:43.760 --> 00:01:45.870 align:start position:0%
+this out as an SVG. In our project
+folder,<00:01:44.120><c> we'll</c><00:01:44.240><c> make</c><00:01:44.480><c> a</c><00:01:44.560><c> new</c><00:01:44.960><c> folder</c><00:01:45.560><c> called</c>
+
+00:01:45.870 --> 00:01:45.880 align:start position:0%
+folder, we'll make a new folder called
+ 
+
+00:01:45.880 --> 00:01:47.870 align:start position:0%
+folder, we'll make a new folder called
+images,<00:01:46.960><c> and</c><00:01:47.120><c> then</c><00:01:47.320><c> we'll</c><00:01:47.421><c> [snorts]</c><00:01:47.480><c> save</c>
+
+00:01:47.870 --> 00:01:47.880 align:start position:0%
+images, and then we'll [snorts] save
+ 
+
+00:01:47.880 --> 00:01:50.510 align:start position:0%
+images, and then we'll [snorts] save
+this<00:01:48.240><c> as</c><00:01:48.520><c> grid.svg.</c><00:01:49.840><c> Now,</c><00:01:50.000><c> we'll</c><00:01:50.160><c> ask</c><00:01:50.400><c> it,</c>
+
+00:01:50.510 --> 00:01:50.520 align:start position:0%
+this as grid.svg. Now, we'll ask it,
+ 
+
+00:01:50.520 --> 00:01:52.830 align:start position:0%
+this as grid.svg. Now, we'll ask it,
+"Add<00:01:50.720><c> the</c><00:01:50.800><c> grid.svg</c><00:01:51.960><c> that's</c><00:01:52.200><c> in</c><00:01:52.320><c> the</c><00:01:52.440><c> images</c>
+
+00:01:52.830 --> 00:01:52.840 align:start position:0%
+"Add the grid.svg that's in the images
+ 
+
+00:01:52.840 --> 00:01:54.710 align:start position:0%
+"Add the grid.svg that's in the images
+folder<00:01:53.200><c> to</c><00:01:53.280><c> the</c><00:01:53.400><c> full-screen</c><00:01:54.000><c> background.</c><00:01:54.600><c> It</c>
+
+00:01:54.710 --> 00:01:54.720 align:start position:0%
+folder to the full-screen background. It
+ 
+
+00:01:54.720 --> 00:01:56.350 align:start position:0%
+folder to the full-screen background. It
+should<00:01:54.880><c> sit</c><00:01:55.080><c> behind</c><00:01:55.440><c> everything,</c><00:01:56.000><c> filling</c>
+
+00:01:56.350 --> 00:01:56.360 align:start position:0%
+should sit behind everything, filling
+ 
+
+00:01:56.360 --> 00:01:58.590 align:start position:0%
+should sit behind everything, filling
+the<00:01:56.600><c> entire</c><00:01:57.080><c> page."</c><00:01:57.640><c> And</c><00:01:57.880><c> look</c><00:01:58.040><c> at</c><00:01:58.120><c> that.</c>
+
+00:01:58.590 --> 00:01:58.600 align:start position:0%
+the entire page." And look at that.
+ 
+
+00:01:58.600 --> 00:02:01.270 align:start position:0%
+the entire page." And look at that.
+Instantly,<00:01:59.680><c> we've</c><00:01:59.840><c> got</c><00:02:00.080><c> this,</c><00:02:00.480><c> and</c><00:02:00.600><c> it</c><00:02:00.680><c> scales</c>
+
+00:02:01.270 --> 00:02:01.280 align:start position:0%
+Instantly, we've got this, and it scales
+ 
+
+00:02:01.280 --> 00:02:03.150 align:start position:0%
+Instantly, we've got this, and it scales
+appropriately.<00:02:02.120><c> How</c><00:02:02.280><c> cool</c><00:02:02.520><c> is</c><00:02:02.640><c> that?</c><00:02:03.040><c> Now,</c>
+
+00:02:03.150 --> 00:02:03.160 align:start position:0%
+appropriately. How cool is that? Now,
+ 
+
+00:02:03.160 --> 00:02:04.830 align:start position:0%
+appropriately. How cool is that? Now,
+what<00:02:03.280><c> I</c><00:02:03.320><c> think</c><00:02:03.520><c> would</c><00:02:03.640><c> be</c><00:02:03.760><c> quite</c><00:02:04.120><c> cool</c><00:02:04.520><c> is</c><00:02:04.680><c> if</c>
+
+00:02:04.830 --> 00:02:04.840 align:start position:0%
+what I think would be quite cool is if
+ 
+
+00:02:04.840 --> 00:02:06.990 align:start position:0%
+what I think would be quite cool is if
+we<00:02:04.960><c> start</c><00:02:05.280><c> to</c><00:02:05.400><c> blur</c><00:02:05.920><c> out</c><00:02:06.120><c> the</c><00:02:06.280><c> edges,</c><00:02:06.680><c> so</c><00:02:06.800><c> this</c>
+
+00:02:06.990 --> 00:02:07.000 align:start position:0%
+we start to blur out the edges, so this
+ 
+
+00:02:07.000 --> 00:02:09.749 align:start position:0%
+we start to blur out the edges, so this
+is<00:02:07.160><c> less</c><00:02:07.400><c> intense.</c><00:02:08.119><c> Let's</c><00:02:08.440><c> add</c><00:02:08.720><c> a</c><00:02:08.800><c> radial</c><00:02:09.360><c> mask</c>
+
+00:02:09.749 --> 00:02:09.759 align:start position:0%
+is less intense. Let's add a radial mask
+ 
+
+00:02:09.759 --> 00:02:11.870 align:start position:0%
+is less intense. Let's add a radial mask
+to<00:02:09.880><c> this</c><00:02:10.119><c> to</c><00:02:10.200><c> create</c><00:02:10.479><c> a</c><00:02:10.560><c> vignette</c><00:02:11.240><c> mask.</c><00:02:11.840><c> And</c>
+
+00:02:11.870 --> 00:02:11.880 align:start position:0%
+to this to create a vignette mask. And
+ 
+
+00:02:11.880 --> 00:02:13.510 align:start position:0%
+to this to create a vignette mask. And
+then,<00:02:12.000><c> how</c><00:02:12.160><c> cool</c><00:02:12.360><c> is</c><00:02:12.480><c> that?</c><00:02:12.720><c> You</c><00:02:12.800><c> can</c><00:02:12.960><c> see</c><00:02:13.280><c> it's</c>
+
+00:02:13.510 --> 00:02:13.520 align:start position:0%
+then, how cool is that? You can see it's
+ 
+
+00:02:13.520 --> 00:02:16.350 align:start position:0%
+then, how cool is that? You can see it's
+literally<00:02:14.120><c> fading</c><00:02:14.560><c> off</c><00:02:14.760><c> from</c><00:02:14.920><c> the</c><00:02:15.080><c> edge.</c><00:02:16.040><c> And</c>
+
+00:02:16.350 --> 00:02:16.360 align:start position:0%
+literally fading off from the edge. And
+ 
+
+00:02:16.360 --> 00:02:17.750 align:start position:0%
+literally fading off from the edge. And
+let's<00:02:16.560><c> just</c><00:02:16.760><c> say,</c>
+
+00:02:17.750 --> 00:02:17.760 align:start position:0%
+let's just say,
+ 
+
+00:02:17.760 --> 00:02:19.950 align:start position:0%
+let's just say,
+tighten<00:02:18.120><c> it</c><00:02:18.200><c> up</c><00:02:18.360><c> a</c><00:02:18.400><c> bit.</c><00:02:19.280><c> Cuz</c><00:02:19.480><c> we</c><00:02:19.600><c> want</c><00:02:19.720><c> to</c><00:02:19.800><c> kind</c>
+
+00:02:19.950 --> 00:02:19.960 align:start position:0%
+tighten it up a bit. Cuz we want to kind
+ 
+
+00:02:19.960 --> 00:02:21.790 align:start position:0%
+tighten it up a bit. Cuz we want to kind
+of<00:02:20.080><c> bring</c><00:02:20.440><c> that</c><00:02:20.640><c> mask</c><00:02:21.040><c> in</c><00:02:21.200><c> a</c><00:02:21.240><c> little</c><00:02:21.520><c> bit.</c><00:02:21.760><c> I</c>
+
+00:02:21.790 --> 00:02:21.800 align:start position:0%
+of bring that mask in a little bit. I
+ 
+
+00:02:21.800 --> 00:02:23.910 align:start position:0%
+of bring that mask in a little bit. I
+don't<00:02:22.040><c> quite</c><00:02:22.320><c> like</c><00:02:22.640><c> how</c><00:02:23.200><c> the</c><00:02:23.320><c> lines</c><00:02:23.800><c> are</c>
+
+00:02:23.910 --> 00:02:23.920 align:start position:0%
+don't quite like how the lines are
+ 
+
+00:02:23.920 --> 00:02:26.390 align:start position:0%
+don't quite like how the lines are
+coming<00:02:24.320><c> over</c><00:02:24.600><c> to</c><00:02:25.000><c> the</c><00:02:25.480><c> navigation</c><00:02:26.040><c> links</c><00:02:26.280><c> up</c>
+
+00:02:26.390 --> 00:02:26.400 align:start position:0%
+coming over to the navigation links up
+ 
+
+00:02:26.400 --> 00:02:28.830 align:start position:0%
+coming over to the navigation links up
+there.<00:02:27.120><c> So,</c><00:02:27.280><c> we'll</c><00:02:27.400><c> refresh</c><00:02:27.800><c> it.</c>
+
+00:02:28.830 --> 00:02:28.840 align:start position:0%
+there. So, we'll refresh it.
+ 
+
+00:02:28.840 --> 00:02:30.590 align:start position:0%
+there. So, we'll refresh it.
+And<00:02:29.000><c> then</c><00:02:29.160><c> now</c><00:02:29.360><c> you</c><00:02:29.480><c> can</c><00:02:29.640><c> see</c><00:02:30.000><c> it's</c><00:02:30.200><c> a</c><00:02:30.240><c> little</c>
+
+00:02:30.590 --> 00:02:30.600 align:start position:0%
+And then now you can see it's a little
+ 
+
+00:02:30.600 --> 00:02:32.670 align:start position:0%
+And then now you can see it's a little
+bit<00:02:30.840><c> tighter.</c><00:02:31.720><c> Now,</c><00:02:31.880><c> the</c><00:02:32.000><c> design</c><00:02:32.360><c> doesn't</c>
+
+00:02:32.670 --> 00:02:32.680 align:start position:0%
+bit tighter. Now, the design doesn't
+ 
+
+00:02:32.680 --> 00:02:34.750 align:start position:0%
+bit tighter. Now, the design doesn't
+quite<00:02:33.040><c> match</c><00:02:33.360><c> our</c><00:02:33.520><c> Figma</c><00:02:33.880><c> yet,</c><00:02:34.240><c> so</c><00:02:34.440><c> we</c><00:02:34.560><c> can</c>
+
+00:02:34.750 --> 00:02:34.760 align:start position:0%
+quite match our Figma yet, so we can
+ 
+
+00:02:34.760 --> 00:02:37.110 align:start position:0%
+quite match our Figma yet, so we can
+take<00:02:35.160><c> our</c><00:02:35.400><c> logo</c><00:02:35.760><c> file,</c><00:02:36.280><c> and</c><00:02:36.400><c> we</c><00:02:36.480><c> can</c><00:02:36.640><c> save</c><00:02:36.840><c> that</c>
+
+00:02:37.110 --> 00:02:37.120 align:start position:0%
+take our logo file, and we can save that
+ 
+
+00:02:37.120 --> 00:02:39.670 align:start position:0%
+take our logo file, and we can save that
+out.<00:02:37.920><c> Just</c><00:02:38.120><c> got</c><00:02:38.240><c> to</c><00:02:38.320><c> make</c><00:02:38.480><c> sure</c><00:02:38.800><c> it's</c><00:02:39.080><c> in</c><00:02:39.320><c> to</c><00:02:39.520><c> in</c>
+
+00:02:39.670 --> 00:02:39.680 align:start position:0%
+out. Just got to make sure it's in to in
+ 
+
+00:02:39.680 --> 00:02:41.390 align:start position:0%
+out. Just got to make sure it's in to in
+the<00:02:39.760><c> right</c><00:02:39.960><c> folder.</c><00:02:40.480><c> We</c><00:02:40.560><c> could</c><00:02:40.720><c> take</c><00:02:41.000><c> this</c>
+
+00:02:41.390 --> 00:02:41.400 align:start position:0%
+the right folder. We could take this
+ 
+
+00:02:41.400 --> 00:02:43.430 align:start position:0%
+the right folder. We could take this
+icon<00:02:41.760><c> down</c><00:02:42.000><c> here,</c><00:02:42.480><c> and</c><00:02:42.600><c> we'll</c><00:02:42.720><c> say</c><00:02:43.200><c> we'll</c><00:02:43.320><c> call</c>
+
+00:02:43.430 --> 00:02:43.440 align:start position:0%
+icon down here, and we'll say we'll call
+ 
+
+00:02:43.440 --> 00:02:45.550 align:start position:0%
+icon down here, and we'll say we'll call
+this<00:02:43.600><c> button</c><00:02:43.920><c> icon,</c><00:02:44.560><c> and</c><00:02:44.760><c> then</c><00:02:45.120><c> we'll</c><00:02:45.240><c> take</c>
+
+00:02:45.550 --> 00:02:45.560 align:start position:0%
+this button icon, and then we'll take
+ 
+
+00:02:45.560 --> 00:02:48.350 align:start position:0%
+this button icon, and then we'll take
+this<00:02:45.840><c> one</c><00:02:46.080><c> here,</c><00:02:46.640><c> and</c><00:02:46.760><c> we'll</c><00:02:46.880><c> call</c><00:02:47.160><c> that</c><00:02:47.440><c> star.</c>
+
+00:02:48.350 --> 00:02:48.360 align:start position:0%
+this one here, and we'll call that star.
+ 
+
+00:02:48.360 --> 00:02:49.750 align:start position:0%
+this one here, and we'll call that star.
+Then<00:02:48.520><c> we'll</c><00:02:48.600><c> just</c><00:02:48.840><c> say,</c><00:02:49.000><c> "Replace</c><00:02:49.360><c> our</c><00:02:49.480><c> logo</c>
+
+00:02:49.750 --> 00:02:49.760 align:start position:0%
+Then we'll just say, "Replace our logo
+ 
+
+00:02:49.760 --> 00:02:51.910 align:start position:0%
+Then we'll just say, "Replace our logo
+file<00:02:50.040><c> with</c><00:02:50.160><c> logo.svg</c><00:02:50.880><c> in</c><00:02:51.000><c> images,</c><00:02:51.480><c> the</c><00:02:51.600><c> button</c>
+
+00:02:51.910 --> 00:02:51.920 align:start position:0%
+file with logo.svg in images, the button
+ 
+
+00:02:51.920 --> 00:02:55.150 align:start position:0%
+file with logo.svg in images, the button
+icon<00:02:52.320><c> with</c><00:02:52.480><c> svg,</c><00:02:53.440><c> and</c><00:02:53.560><c> then</c><00:02:53.720><c> the</c><00:02:53.840><c> star</c><00:02:54.360><c> icon."</c>
+
+00:02:55.150 --> 00:02:55.160 align:start position:0%
+icon with svg, and then the star icon."
+ 
+
+00:02:55.160 --> 00:02:57.510 align:start position:0%
+icon with svg, and then the star icon."
+Then<00:02:55.360><c> we'll</c><00:02:55.480><c> refresh</c><00:02:56.000><c> it,</c><00:02:56.640><c> and</c><00:02:56.920><c> then</c><00:02:57.160><c> now</c><00:02:57.400><c> we</c>
+
+00:02:57.510 --> 00:02:57.520 align:start position:0%
+Then we'll refresh it, and then now we
+ 
+
+00:02:57.520 --> 00:03:00.030 align:start position:0%
+Then we'll refresh it, and then now we
+can<00:02:57.680><c> see</c><00:02:57.960><c> our</c><00:02:58.160><c> logo</c><00:02:58.520><c> is</c><00:02:58.640><c> in</c><00:02:58.800><c> there,</c><00:02:59.400><c> our</c><00:02:59.680><c> icon</c>
+
+00:03:00.030 --> 00:03:00.040 align:start position:0%
+can see our logo is in there, our icon
+ 
+
+00:03:00.040 --> 00:03:01.870 align:start position:0%
+can see our logo is in there, our icon
+is<00:03:00.160><c> down</c><00:03:00.400><c> there,</c><00:03:00.720><c> and</c><00:03:01.040><c> we've</c><00:03:01.200><c> got</c><00:03:01.400><c> our</c><00:03:01.520><c> star</c>
+
+00:03:01.870 --> 00:03:01.880 align:start position:0%
+is down there, and we've got our star
+ 
+
+00:03:01.880 --> 00:03:03.550 align:start position:0%
+is down there, and we've got our star
+icon<00:03:02.240><c> there.</c><00:03:02.560><c> So,</c><00:03:02.680><c> now</c><00:03:02.880><c> for</c><00:03:03.000><c> the</c><00:03:03.080><c> part</c><00:03:03.320><c> that's</c>
+
+00:03:03.550 --> 00:03:03.560 align:start position:0%
+icon there. So, now for the part that's
+ 
+
+00:03:03.560 --> 00:03:05.070 align:start position:0%
+icon there. So, now for the part that's
+really<00:03:03.920><c> going</c><00:03:04.040><c> to</c><00:03:04.120><c> bring</c><00:03:04.320><c> this</c><00:03:04.480><c> together</c><00:03:04.960><c> and</c>
+
+00:03:05.070 --> 00:03:05.080 align:start position:0%
+really going to bring this together and
+ 
+
+00:03:05.080 --> 00:03:06.630 align:start position:0%
+really going to bring this together and
+look<00:03:05.320><c> really</c><00:03:05.560><c> unique,</c><00:03:06.160><c> we're</c><00:03:06.280><c> going</c><00:03:06.400><c> to</c><00:03:06.480><c> use</c>
+
+00:03:06.630 --> 00:03:06.640 align:start position:0%
+look really unique, we're going to use
+ 
+
+00:03:06.640 --> 00:03:08.590 align:start position:0%
+look really unique, we're going to use
+Higgs<00:03:07.000><c> Field</c><00:03:07.280><c> to</c><00:03:07.400><c> generate</c><00:03:07.800><c> some</c><00:03:08.000><c> images,</c><00:03:08.520><c> and</c>
+
+00:03:08.590 --> 00:03:08.600 align:start position:0%
+Higgs Field to generate some images, and
+ 
+
+00:03:08.600 --> 00:03:10.150 align:start position:0%
+Higgs Field to generate some images, and
+then<00:03:08.720><c> we're</c><00:03:08.800><c> going</c><00:03:08.920><c> to</c><00:03:08.960><c> turn</c><00:03:09.160><c> those</c><00:03:09.400><c> images</c>
+
+00:03:10.150 --> 00:03:10.160 align:start position:0%
+then we're going to turn those images
+ 
+
+00:03:10.160 --> 00:03:12.870 align:start position:0%
+then we're going to turn those images
+into<00:03:10.400><c> videos</c><00:03:11.160><c> using</c><00:03:11.480><c> Seed</c><00:03:11.840><c> ants</c><00:03:12.080><c> 2.0.</c><00:03:12.720><c> So,</c>
+
+00:03:12.870 --> 00:03:12.880 align:start position:0%
+into videos using Seed ants 2.0. So,
+ 
+
+00:03:12.880 --> 00:03:14.990 align:start position:0%
+into videos using Seed ants 2.0. So,
+let's<00:03:13.080><c> do</c><00:03:13.240><c> that.</c><00:03:13.640><c> This</c><00:03:13.840><c> is</c><00:03:13.960><c> Higgs</c><00:03:14.160><c> Field</c><00:03:14.520><c> here,</c>
+
+00:03:14.990 --> 00:03:15.000 align:start position:0%
+let's do that. This is Higgs Field here,
+ 
+
+00:03:15.000 --> 00:03:16.310 align:start position:0%
+let's do that. This is Higgs Field here,
+and<00:03:15.200><c> Higgs</c><00:03:15.400><c> Field's</c><00:03:15.600><c> really</c><00:03:15.800><c> good</c><00:03:16.000><c> because</c>
+
+00:03:16.310 --> 00:03:16.320 align:start position:0%
+and Higgs Field's really good because
+ 
+
+00:03:16.320 --> 00:03:18.030 align:start position:0%
+and Higgs Field's really good because
+they<00:03:16.400><c> have</c><00:03:16.560><c> access</c><00:03:17.080><c> to</c><00:03:17.280><c> all</c><00:03:17.480><c> these</c><00:03:17.680><c> different</c>
+
+00:03:18.030 --> 00:03:18.040 align:start position:0%
+they have access to all these different
+ 
+
+00:03:18.040 --> 00:03:19.990 align:start position:0%
+they have access to all these different
+AI<00:03:18.320><c> models.</c><00:03:18.960><c> And</c><00:03:19.200><c> what</c><00:03:19.360><c> we're</c><00:03:19.480><c> going</c><00:03:19.600><c> to</c><00:03:19.680><c> do</c><00:03:19.880><c> to</c>
+
+00:03:19.990 --> 00:03:20.000 align:start position:0%
+AI models. And what we're going to do to
+ 
+
+00:03:20.000 --> 00:03:21.510 align:start position:0%
+AI models. And what we're going to do to
+start<00:03:20.240><c> this</c><00:03:20.480><c> off,</c><00:03:20.640><c> we're</c><00:03:20.760><c> going</c><00:03:20.880><c> to</c><00:03:20.960><c> click</c><00:03:21.280><c> on</c>
+
+00:03:21.510 --> 00:03:21.520 align:start position:0%
+start this off, we're going to click on
+ 
+
+00:03:21.520 --> 00:03:23.390 align:start position:0%
+start this off, we're going to click on
+Nano<00:03:21.920><c> Banana</c><00:03:22.320><c> 2,</c><00:03:22.840><c> and</c><00:03:23.000><c> we're</c><00:03:23.080><c> going</c><00:03:23.200><c> to</c><00:03:23.280><c> go</c>
+
+00:03:23.390 --> 00:03:23.400 align:start position:0%
+Nano Banana 2, and we're going to go
+ 
+
+00:03:23.400 --> 00:03:25.190 align:start position:0%
+Nano Banana 2, and we're going to go
+down<00:03:23.640><c> here,</c><00:03:23.920><c> and</c><00:03:24.000><c> we</c><00:03:24.080><c> want</c><00:03:24.240><c> to</c><00:03:24.320><c> create</c><00:03:24.880><c> these</c>
+
+00:03:25.190 --> 00:03:25.200 align:start position:0%
+down here, and we want to create these
+ 
+
+00:03:25.200 --> 00:03:28.110 align:start position:0%
+down here, and we want to create these
+two<00:03:25.640><c> sort</c><00:03:25.920><c> of</c><00:03:26.040><c> Pixar</c><00:03:26.640><c> style</c><00:03:27.000><c> characters.</c><00:03:28.000><c> So,</c>
+
+00:03:28.110 --> 00:03:28.120 align:start position:0%
+two sort of Pixar style characters. So,
+ 
+
+00:03:28.120 --> 00:03:29.510 align:start position:0%
+two sort of Pixar style characters. So,
+we're<00:03:28.200><c> going</c><00:03:28.320><c> to</c><00:03:28.400><c> give</c><00:03:28.520><c> it</c><00:03:28.600><c> this</c><00:03:28.760><c> prompt</c><00:03:29.120><c> here.</c>
+
+00:03:29.510 --> 00:03:29.520 align:start position:0%
+we're going to give it this prompt here.
+ 
+
+00:03:29.520 --> 00:03:31.230 align:start position:0%
+we're going to give it this prompt here.
+Create<00:03:29.760><c> a</c><00:03:29.800><c> Pixar</c><00:03:30.240><c> style</c><00:03:30.480><c> character</c><00:03:31.080><c> on</c><00:03:31.200><c> a</c>
+
+00:03:31.230 --> 00:03:31.240 align:start position:0%
+Create a Pixar style character on a
+ 
+
+00:03:31.240 --> 00:03:33.070 align:start position:0%
+Create a Pixar style character on a
+white<00:03:31.560><c> background.</c><00:03:32.120><c> He</c><00:03:32.280><c> should</c><00:03:32.480><c> be</c><00:03:32.640><c> similar</c>
+
+00:03:33.070 --> 00:03:33.080 align:start position:0%
+white background. He should be similar
+ 
+
+00:03:33.080 --> 00:03:35.310 align:start position:0%
+white background. He should be similar
+style<00:03:33.400><c> to</c><00:03:33.520><c> character</c><00:03:33.920><c> from</c><00:03:34.160><c> Up.</c><00:03:34.840><c> He</c><00:03:35.000><c> has</c><00:03:35.240><c> a</c>
+
+00:03:35.310 --> 00:03:35.320 align:start position:0%
+style to character from Up. He has a
+ 
+
+00:03:35.320 --> 00:03:37.950 align:start position:0%
+style to character from Up. He has a
+miner's<00:03:35.760><c> helmet</c><00:03:36.080><c> on</c><00:03:36.400><c> and</c><00:03:36.560><c> a</c><00:03:36.600><c> knitted</c><00:03:37.160><c> jumper.</c>
+
+00:03:37.950 --> 00:03:37.960 align:start position:0%
+miner's helmet on and a knitted jumper.
+ 
+
+00:03:37.960 --> 00:03:40.030 align:start position:0%
+miner's helmet on and a knitted jumper.
+And<00:03:38.200><c> then,</c><00:03:38.520><c> aspect</c><00:03:38.960><c> ratio</c><00:03:39.400><c> we'll</c><00:03:39.520><c> just</c><00:03:39.720><c> keep</c>
+
+00:03:40.030 --> 00:03:40.040 align:start position:0%
+And then, aspect ratio we'll just keep
+ 
+
+00:03:40.040 --> 00:03:42.350 align:start position:0%
+And then, aspect ratio we'll just keep
+as<00:03:40.280><c> it</c><00:03:40.480><c> is,</c><00:03:41.040><c> and</c><00:03:41.200><c> then</c><00:03:41.360><c> let's</c><00:03:41.600><c> run</c><00:03:41.800><c> it.</c><00:03:42.280><c> And</c>
+
+00:03:42.350 --> 00:03:42.360 align:start position:0%
+as it is, and then let's run it. And
+ 
+
+00:03:42.360 --> 00:03:44.270 align:start position:0%
+as it is, and then let's run it. And
+we'll<00:03:42.520><c> also</c><00:03:42.800><c> run</c><00:03:43.000><c> this</c><00:03:43.200><c> on</c><00:03:43.320><c> Nano</c><00:03:43.560><c> Banana</c><00:03:43.960><c> Pro</c>
+
+00:03:44.270 --> 00:03:44.280 align:start position:0%
+we'll also run this on Nano Banana Pro
+ 
+
+00:03:44.280 --> 00:03:47.230 align:start position:0%
+we'll also run this on Nano Banana Pro
+just<00:03:44.560><c> to</c><00:03:44.680><c> see</c><00:03:45.400><c> more</c><00:03:45.800><c> variations</c><00:03:46.480><c> of</c><00:03:46.640><c> it.</c><00:03:47.000><c> And</c>
+
+00:03:47.230 --> 00:03:47.240 align:start position:0%
+just to see more variations of it. And
+ 
+
+00:03:47.240 --> 00:03:49.630 align:start position:0%
+just to see more variations of it. And
+you<00:03:47.320><c> can</c><00:03:47.480><c> see</c><00:03:47.960><c> it's</c><00:03:48.240><c> generated</c><00:03:48.800><c> us</c><00:03:49.000><c> images</c>
+
+00:03:49.630 --> 00:03:49.640 align:start position:0%
+you can see it's generated us images
+ 
+
+00:03:49.640 --> 00:03:53.470 align:start position:0%
+you can see it's generated us images
+like<00:03:50.000><c> this</c><00:03:50.800><c> and</c><00:03:51.240><c> this</c><00:03:51.760><c> and</c>
+
+00:03:53.470 --> 00:03:53.480 align:start position:0%
+like this and this and
+ 
+
+00:03:53.480 --> 00:03:54.950 align:start position:0%
+like this and this and
+These<00:03:53.800><c> are</c><00:03:53.880><c> probably</c><00:03:54.200><c> a</c><00:03:54.240><c> little</c><00:03:54.480><c> bit</c><00:03:54.760><c> too</c>
+
+00:03:54.950 --> 00:03:54.960 align:start position:0%
+These are probably a little bit too
+ 
+
+00:03:54.960 --> 00:03:57.350 align:start position:0%
+These are probably a little bit too
+close<00:03:55.280><c> to</c><00:03:55.480><c> Up.</c><00:03:55.880><c> So,</c><00:03:56.080><c> after</c><00:03:56.360><c> a</c><00:03:56.440><c> few</c><00:03:56.720><c> prompts,</c><00:03:57.240><c> we</c>
+
+00:03:57.350 --> 00:03:57.360 align:start position:0%
+close to Up. So, after a few prompts, we
+ 
+
+00:03:57.360 --> 00:04:00.790 align:start position:0%
+close to Up. So, after a few prompts, we
+landed<00:03:57.760><c> on</c><00:03:57.920><c> these</c><00:03:58.320><c> two</c><00:03:58.600><c> characters</c><00:03:59.400><c> here,</c><00:04:00.520><c> and</c>
+
+00:04:00.790 --> 00:04:00.800 align:start position:0%
+landed on these two characters here, and
+ 
+
+00:04:00.800 --> 00:04:02.710 align:start position:0%
+landed on these two characters here, and
+this<00:04:01.080><c> is</c><00:04:01.240><c> exactly</c><00:04:01.800><c> the</c><00:04:01.920><c> sort</c><00:04:02.160><c> of</c><00:04:02.280><c> thing</c><00:04:02.560><c> that</c>
+
+00:04:02.710 --> 00:04:02.720 align:start position:0%
+this is exactly the sort of thing that
+ 
+
+00:04:02.720 --> 00:04:04.910 align:start position:0%
+this is exactly the sort of thing that
+we're<00:04:02.840><c> looking</c><00:04:03.160><c> for.</c><00:04:04.000><c> We</c><00:04:04.080><c> can</c><00:04:04.200><c> drag</c><00:04:04.480><c> them</c><00:04:04.680><c> into</c>
+
+00:04:04.910 --> 00:04:04.920 align:start position:0%
+we're looking for. We can drag them into
+ 
+
+00:04:04.920 --> 00:04:07.310 align:start position:0%
+we're looking for. We can drag them into
+the<00:04:05.040><c> Figma,</c><00:04:05.480><c> and</c><00:04:05.560><c> we</c><00:04:05.640><c> can</c><00:04:05.800><c> really</c><00:04:06.080><c> get</c><00:04:06.280><c> an</c><00:04:06.400><c> idea</c>
+
+00:04:07.310 --> 00:04:07.320 align:start position:0%
+the Figma, and we can really get an idea
+ 
+
+00:04:07.320 --> 00:04:09.310 align:start position:0%
+the Figma, and we can really get an idea
+how<00:04:07.520><c> this</c><00:04:07.760><c> looks.</c><00:04:08.400><c> So,</c><00:04:08.520><c> let's</c><00:04:08.720><c> take</c><00:04:09.000><c> each</c><00:04:09.240><c> of</c>
+
+00:04:09.310 --> 00:04:09.320 align:start position:0%
+how this looks. So, let's take each of
+ 
+
+00:04:09.320 --> 00:04:11.710 align:start position:0%
+how this looks. So, let's take each of
+these<00:04:09.520><c> characters</c><00:04:10.240><c> and</c><00:04:10.560><c> export</c><00:04:11.040><c> them</c><00:04:11.320><c> out.</c>
+
+00:04:11.710 --> 00:04:11.720 align:start position:0%
+these characters and export them out.
+ 
+
+00:04:11.720 --> 00:04:12.750 align:start position:0%
+these characters and export them out.
+So,<00:04:11.840><c> we're</c><00:04:11.920><c> going</c><00:04:12.040><c> to</c><00:04:12.120><c> say,</c><00:04:12.280><c> "I</c><00:04:12.360><c> want</c><00:04:12.520><c> to</c><00:04:12.600><c> add</c>
+
+00:04:12.750 --> 00:04:12.760 align:start position:0%
+So, we're going to say, "I want to add
+ 
+
+00:04:12.760 --> 00:04:14.990 align:start position:0%
+So, we're going to say, "I want to add
+the<00:04:12.880><c> two</c><00:04:13.120><c> character.png</c><00:04:14.160><c> images</c><00:04:14.600><c> into</c><00:04:14.920><c> the</c>
+
+00:04:14.990 --> 00:04:15.000 align:start position:0%
+the two character.png images into the
+ 
+
+00:04:15.000 --> 00:04:16.590 align:start position:0%
+the two character.png images into the
+design.<00:04:15.440><c> They're</c><00:04:15.680><c> in</c><00:04:15.800><c> the</c><00:04:15.880><c> images</c><00:04:16.200><c> folder.</c>
+
+00:04:16.590 --> 00:04:16.600 align:start position:0%
+design. They're in the images folder.
+ 
+
+00:04:16.600 --> 00:04:19.229 align:start position:0%
+design. They're in the images folder.
+Position<00:04:17.120><c> them</c><00:04:17.799><c> like</c><00:04:18.239><c> this."</c><00:04:18.760><c> And</c><00:04:18.959><c> we're</c><00:04:19.040><c> just</c>
+
+00:04:19.229 --> 00:04:19.239 align:start position:0%
+Position them like this." And we're just
+ 
+
+00:04:19.239 --> 00:04:21.830 align:start position:0%
+Position them like this." And we're just
+going<00:04:19.359><c> to</c><00:04:19.480><c> give</c><00:04:19.680><c> it</c><00:04:19.880><c> this</c><00:04:20.160><c> screenshot.</c><00:04:21.560><c> Then</c>
+
+00:04:21.830 --> 00:04:21.840 align:start position:0%
+going to give it this screenshot. Then
+ 
+
+00:04:21.840 --> 00:04:24.390 align:start position:0%
+going to give it this screenshot. Then
+we<00:04:22.000><c> refresh</c><00:04:22.480><c> the</c><00:04:22.640><c> page.</c><00:04:23.640><c> We</c><00:04:23.880><c> have</c><00:04:24.240><c> our</c>
+
+00:04:24.390 --> 00:04:24.400 align:start position:0%
+we refresh the page. We have our
+ 
+
+00:04:24.400 --> 00:04:26.750 align:start position:0%
+we refresh the page. We have our
+characters<00:04:25.000><c> in.</c><00:04:25.320><c> Now,</c><00:04:25.480><c> let's</c><00:04:25.760><c> head</c><00:04:26.040><c> back</c><00:04:26.440><c> over</c>
+
+00:04:26.750 --> 00:04:26.760 align:start position:0%
+characters in. Now, let's head back over
+ 
+
+00:04:26.760 --> 00:04:28.430 align:start position:0%
+characters in. Now, let's head back over
+into<00:04:27.000><c> Higgs</c><00:04:27.240><c> Field,</c><00:04:27.600><c> and</c><00:04:27.760><c> this</c><00:04:28.000><c> time</c><00:04:28.240><c> let's</c>
+
+00:04:28.430 --> 00:04:28.440 align:start position:0%
+into Higgs Field, and this time let's
+ 
+
+00:04:28.440 --> 00:04:30.230 align:start position:0%
+into Higgs Field, and this time let's
+click<00:04:28.680><c> on</c><00:04:28.880><c> video,</c><00:04:29.840><c> and</c><00:04:29.920><c> we're</c><00:04:30.040><c> going</c><00:04:30.160><c> to</c>
+
+00:04:30.230 --> 00:04:30.240 align:start position:0%
+click on video, and we're going to
+ 
+
+00:04:30.240 --> 00:04:32.710 align:start position:0%
+click on video, and we're going to
+choose<00:04:30.600><c> Seed</c><00:04:30.840><c> ants</c><00:04:31.120><c> 2.0.</c><00:04:32.080><c> So,</c><00:04:32.240><c> we'll</c><00:04:32.440><c> add</c><00:04:32.640><c> in</c>
+
+00:04:32.710 --> 00:04:32.720 align:start position:0%
+choose Seed ants 2.0. So, we'll add in
+ 
+
+00:04:32.720 --> 00:04:35.590 align:start position:0%
+choose Seed ants 2.0. So, we'll add in
+our<00:04:32.880><c> character.png</c><00:04:34.120><c> here,</c><00:04:35.080><c> and</c><00:04:35.360><c> we'll</c><00:04:35.480><c> give</c>
+
+00:04:35.590 --> 00:04:35.600 align:start position:0%
+our character.png here, and we'll give
+ 
+
+00:04:35.600 --> 00:04:37.390 align:start position:0%
+our character.png here, and we'll give
+it<00:04:35.720><c> this</c><00:04:35.920><c> prompt</c><00:04:36.320><c> here.</c><00:04:36.520><c> This</c><00:04:36.720><c> character</c><00:04:37.240><c> is</c>
+
+00:04:37.390 --> 00:04:37.400 align:start position:0%
+it this prompt here. This character is
+ 
+
+00:04:37.400 --> 00:04:39.150 align:start position:0%
+it this prompt here. This character is
+on<00:04:37.520><c> a</c><00:04:37.560><c> solid</c><00:04:38.160><c> white</c><00:04:38.440><c> background.</c><00:04:39.000><c> He's</c>
+
+00:04:39.150 --> 00:04:39.160 align:start position:0%
+on a solid white background. He's
+ 
+
+00:04:39.160 --> 00:04:40.790 align:start position:0%
+on a solid white background. He's
+looking<00:04:39.480><c> around.</c><00:04:39.880><c> Static</c><00:04:40.440><c> camera</c>
+
+00:04:40.790 --> 00:04:40.800 align:start position:0%
+looking around. Static camera
+ 
+
+00:04:40.800 --> 00:04:43.430 align:start position:0%
+looking around. Static camera
+positioning.<00:04:41.760><c> No</c><00:04:42.080><c> panning.</c><00:04:42.880><c> Now,</c><00:04:43.160><c> the</c><00:04:43.280><c> good</c>
+
+00:04:43.430 --> 00:04:43.440 align:start position:0%
+positioning. No panning. Now, the good
+ 
+
+00:04:43.440 --> 00:04:45.350 align:start position:0%
+positioning. No panning. Now, the good
+thing<00:04:43.600><c> with</c><00:04:43.720><c> Seed</c><00:04:43.920><c> ants</c><00:04:44.120><c> 2</c><00:04:44.360><c> is</c><00:04:44.560><c> it's</c><00:04:44.920><c> super</c>
+
+00:04:45.350 --> 00:04:45.360 align:start position:0%
+thing with Seed ants 2 is it's super
+ 
+
+00:04:45.360 --> 00:04:48.070 align:start position:0%
+thing with Seed ants 2 is it's super
+precise,<00:04:46.560><c> so</c><00:04:46.800><c> it</c><00:04:46.893><c> [snorts]</c><00:04:46.960><c> should</c><00:04:47.360><c> do</c><00:04:47.760><c> just</c>
+
+00:04:48.070 --> 00:04:48.080 align:start position:0%
+precise, so it [snorts] should do just
+ 
+
+00:04:48.080 --> 00:04:49.830 align:start position:0%
+precise, so it [snorts] should do just
+all<00:04:48.320><c> of</c><00:04:48.440><c> those</c><00:04:48.680><c> things,</c><00:04:49.120><c> cuz</c><00:04:49.280><c> we</c><00:04:49.400><c> want</c><00:04:49.600><c> a</c><00:04:49.640><c> lot</c>
+
+00:04:49.830 --> 00:04:49.840 align:start position:0%
+all of those things, cuz we want a lot
+ 
+
+00:04:49.840 --> 00:04:51.150 align:start position:0%
+all of those things, cuz we want a lot
+of<00:04:49.920><c> control</c><00:04:50.360><c> with</c><00:04:50.480><c> these</c><00:04:50.680><c> character</c>
+
+00:04:51.150 --> 00:04:51.160 align:start position:0%
+of control with these character
+ 
+
+00:04:51.160 --> 00:04:53.350 align:start position:0%
+of control with these character
+animations.<00:04:51.760><c> We</c><00:04:51.880><c> can't</c><00:04:52.240><c> have</c><00:04:52.760><c> things</c><00:04:53.080><c> moving</c>
+
+00:04:53.350 --> 00:04:53.360 align:start position:0%
+animations. We can't have things moving
+ 
+
+00:04:53.360 --> 00:04:55.110 align:start position:0%
+animations. We can't have things moving
+around<00:04:53.720><c> too</c><00:04:53.840><c> crazy.</c><00:04:54.400><c> So,</c><00:04:54.520><c> we'll</c><00:04:54.640><c> generate</c>
+
+00:04:55.110 --> 00:04:55.120 align:start position:0%
+around too crazy. So, we'll generate
+ 
+
+00:04:55.120 --> 00:04:57.270 align:start position:0%
+around too crazy. So, we'll generate
+that.<00:04:55.600><c> And</c><00:04:55.800><c> this</c><00:04:56.000><c> here</c><00:04:56.480><c> is</c><00:04:56.680><c> what</c><00:04:56.800><c> we</c><00:04:56.920><c> get.</c><00:04:57.160><c> So,</c>
+
+00:04:57.270 --> 00:04:57.280 align:start position:0%
+that. And this here is what we get. So,
+ 
+
+00:04:57.280 --> 00:04:59.230 align:start position:0%
+that. And this here is what we get. So,
+you<00:04:57.360><c> can</c><00:04:57.520><c> see</c><00:04:57.760><c> our</c><00:04:58.000><c> character</c><00:04:58.720><c> is</c><00:04:58.880><c> just</c><00:04:59.080><c> kind</c>
+
+00:04:59.230 --> 00:04:59.240 align:start position:0%
+you can see our character is just kind
+ 
+
+00:04:59.240 --> 00:05:00.870 align:start position:0%
+you can see our character is just kind
+of<00:04:59.360><c> looking</c><00:04:59.680><c> around.</c><00:05:00.160><c> He's</c><00:05:00.320><c> not</c><00:05:00.520><c> moving</c>
+
+00:05:00.870 --> 00:05:00.880 align:start position:0%
+of looking around. He's not moving
+ 
+
+00:05:00.880 --> 00:05:02.470 align:start position:0%
+of looking around. He's not moving
+around.<00:05:01.200><c> He's</c><00:05:01.320><c> not</c><00:05:01.480><c> getting</c><00:05:01.720><c> cropped</c><00:05:02.280><c> at</c><00:05:02.400><c> the</c>
+
+00:05:02.470 --> 00:05:02.480 align:start position:0%
+around. He's not getting cropped at the
+ 
+
+00:05:02.480 --> 00:05:05.470 align:start position:0%
+around. He's not getting cropped at the
+sides.<00:05:03.200><c> This</c><00:05:03.960><c> is</c><00:05:04.160><c> perfect</c><00:05:04.720><c> for</c><00:05:04.840><c> what</c><00:05:05.000><c> we</c><00:05:05.080><c> need.</c>
+
+00:05:05.470 --> 00:05:05.480 align:start position:0%
+sides. This is perfect for what we need.
+ 
+
+00:05:05.480 --> 00:05:07.550 align:start position:0%
+sides. This is perfect for what we need.
+And<00:05:05.600><c> this</c><00:05:05.720><c> is</c><00:05:05.840><c> why</c><00:05:05.960><c> Seed</c><00:05:06.240><c> ants</c><00:05:06.440><c> 2.0</c><00:05:07.000><c> is</c><00:05:07.240><c> really</c>
+
+00:05:07.550 --> 00:05:07.560 align:start position:0%
+And this is why Seed ants 2.0 is really
+ 
+
+00:05:07.560 --> 00:05:09.590 align:start position:0%
+And this is why Seed ants 2.0 is really
+good<00:05:07.760><c> for</c><00:05:07.880><c> this,</c><00:05:08.160><c> because</c><00:05:08.760><c> it</c><00:05:08.920><c> keeps</c><00:05:09.240><c> things</c>
+
+00:05:09.590 --> 00:05:09.600 align:start position:0%
+good for this, because it keeps things
+ 
+
+00:05:09.600 --> 00:05:11.750 align:start position:0%
+good for this, because it keeps things
+controlled.<00:05:10.520><c> So,</c><00:05:10.640><c> let's</c><00:05:10.880><c> download</c><00:05:11.280><c> that.</c><00:05:11.680><c> And</c>
+
+00:05:11.750 --> 00:05:11.760 align:start position:0%
+controlled. So, let's download that. And
+ 
+
+00:05:11.760 --> 00:05:13.550 align:start position:0%
+controlled. So, let's download that. And
+then<00:05:11.840><c> we've</c><00:05:12.040><c> also</c><00:05:12.400><c> done</c><00:05:12.600><c> it</c><00:05:12.760><c> for</c><00:05:13.040><c> our</c><00:05:13.280><c> other</c>
+
+00:05:13.550 --> 00:05:13.560 align:start position:0%
+then we've also done it for our other
+ 
+
+00:05:13.560 --> 00:05:16.070 align:start position:0%
+then we've also done it for our other
+character,<00:05:14.680><c> and</c><00:05:14.840><c> you</c><00:05:14.960><c> can</c><00:05:15.120><c> see</c><00:05:15.400><c> that</c><00:05:15.600><c> he's</c>
+
+00:05:16.070 --> 00:05:16.080 align:start position:0%
+character, and you can see that he's
+ 
+
+00:05:16.080 --> 00:05:18.470 align:start position:0%
+character, and you can see that he's
+looking<00:05:16.480><c> around</c><00:05:16.920><c> just</c><00:05:17.120><c> like</c><00:05:17.320><c> this</c><00:05:17.560><c> now.</c>
+
+00:05:18.470 --> 00:05:18.480 align:start position:0%
+looking around just like this now.
+ 
+
+00:05:18.480 --> 00:05:20.590 align:start position:0%
+looking around just like this now.
+And,<00:05:18.920><c> you</c><00:05:19.000><c> know,</c><00:05:19.280><c> there's</c><00:05:19.520><c> no</c><00:05:19.800><c> cropping</c><00:05:20.400><c> at</c>
+
+00:05:20.590 --> 00:05:20.600 align:start position:0%
+And, you know, there's no cropping at
+ 
+
+00:05:20.600 --> 00:05:22.750 align:start position:0%
+And, you know, there's no cropping at
+the<00:05:20.720><c> edges.</c><00:05:21.440><c> So,</c><00:05:21.560><c> let's</c><00:05:21.800><c> download</c><00:05:22.160><c> that,</c><00:05:22.400><c> too.</c>
+
+00:05:22.750 --> 00:05:22.760 align:start position:0%
+the edges. So, let's download that, too.
+ 
+
+00:05:22.760 --> 00:05:24.750 align:start position:0%
+the edges. So, let's download that, too.
+Now,<00:05:22.960><c> if</c><00:05:23.080><c> we</c><00:05:23.240><c> add</c><00:05:23.440><c> both</c><00:05:23.680><c> of</c><00:05:23.760><c> those</c><00:05:24.000><c> videos</c><00:05:24.480><c> to</c>
+
+00:05:24.750 --> 00:05:24.760 align:start position:0%
+Now, if we add both of those videos to
+ 
+
+00:05:24.760 --> 00:05:27.030 align:start position:0%
+Now, if we add both of those videos to
+our<00:05:25.040><c> images</c><00:05:25.520><c> folder,</c><00:05:26.280><c> we'll</c><00:05:26.520><c> say,</c><00:05:26.760><c> "Let's</c>
+
+00:05:27.030 --> 00:05:27.040 align:start position:0%
+our images folder, we'll say, "Let's
+ 
+
+00:05:27.040 --> 00:05:28.390 align:start position:0%
+our images folder, we'll say, "Let's
+replace<00:05:27.400><c> the</c><00:05:27.520><c> images</c><00:05:28.040><c> with</c><00:05:28.240><c> their</c>
+
+00:05:28.390 --> 00:05:28.400 align:start position:0%
+replace the images with their
+ 
+
+00:05:28.400 --> 00:05:30.550 align:start position:0%
+replace the images with their
+appropriate<00:05:29.000><c> video</c><00:05:29.440><c> in</c><00:05:29.640><c> the</c><00:05:29.760><c> images</c><00:05:30.120><c> folder."</c>
+
+00:05:30.550 --> 00:05:30.560 align:start position:0%
+appropriate video in the images folder."
+ 
+
+00:05:30.560 --> 00:05:33.430 align:start position:0%
+appropriate video in the images folder."
+Now,<00:05:30.800><c> you</c><00:05:30.920><c> can</c><00:05:31.080><c> see</c><00:05:31.400><c> our</c><00:05:31.680><c> characters</c>
+
+00:05:33.430 --> 00:05:33.440 align:start position:0%
+Now, you can see our characters
+ 
+
+00:05:33.440 --> 00:05:35.030 align:start position:0%
+Now, you can see our characters
+are<00:05:33.640><c> moving</c><00:05:33.880><c> around</c><00:05:34.240><c> just</c><00:05:34.440><c> like</c><00:05:34.640><c> that.</c><00:05:34.920><c> And</c>
+
+00:05:35.030 --> 00:05:35.040 align:start position:0%
+are moving around just like that. And
+ 
+
+00:05:35.040 --> 00:05:36.990 align:start position:0%
+are moving around just like that. And
+how<00:05:35.200><c> cool</c><00:05:35.440><c> is</c><00:05:35.560><c> that?</c><00:05:36.120><c> But</c><00:05:36.280><c> as</c><00:05:36.400><c> you</c><00:05:36.520><c> can</c><00:05:36.680><c> see,</c>
+
+00:05:36.990 --> 00:05:37.000 align:start position:0%
+how cool is that? But as you can see,
+ 
+
+00:05:37.000 --> 00:05:39.590 align:start position:0%
+how cool is that? But as you can see,
+we've<00:05:37.200><c> got</c><00:05:37.440><c> this</c><00:05:37.640><c> background</c><00:05:38.480><c> on</c><00:05:38.680><c> them,</c><00:05:39.360><c> which</c>
+
+00:05:39.590 --> 00:05:39.600 align:start position:0%
+we've got this background on them, which
+ 
+
+00:05:39.600 --> 00:05:41.990 align:start position:0%
+we've got this background on them, which
+is<00:05:39.760><c> not</c><00:05:40.120><c> ideal,</c><00:05:40.560><c> because</c><00:05:40.800><c> it's</c><00:05:40.920><c> not</c><00:05:41.160><c> a</c><00:05:41.240><c> true</c>
+
+00:05:41.990 --> 00:05:42.000 align:start position:0%
+is not ideal, because it's not a true
+ 
+
+00:05:42.000 --> 00:05:43.750 align:start position:0%
+is not ideal, because it's not a true
+white<00:05:42.360><c> background.</c><00:05:43.000><c> You</c><00:05:43.080><c> know,</c><00:05:43.200><c> sometimes</c>
+
+00:05:43.750 --> 00:05:43.760 align:start position:0%
+white background. You know, sometimes
+ 
+
+00:05:43.760 --> 00:05:45.470 align:start position:0%
+white background. You know, sometimes
+this<00:05:43.920><c> will</c><00:05:44.000><c> be</c><00:05:44.120><c> perfect,</c><00:05:44.680><c> sometimes</c><00:05:45.320><c> it's</c>
+
+00:05:45.470 --> 00:05:45.480 align:start position:0%
+this will be perfect, sometimes it's
+ 
+
+00:05:45.480 --> 00:05:47.790 align:start position:0%
+this will be perfect, sometimes it's
+just<00:05:45.680><c> not</c><00:05:46.080><c> quite</c><00:05:46.520><c> right.</c><00:05:47.000><c> As</c><00:05:47.120><c> a</c><00:05:47.160><c> little</c><00:05:47.480><c> extra</c>
+
+00:05:47.790 --> 00:05:47.800 align:start position:0%
+just not quite right. As a little extra
+ 
+
+00:05:47.800 --> 00:05:50.070 align:start position:0%
+just not quite right. As a little extra
+step,<00:05:48.040><c> you</c><00:05:48.120><c> could</c><00:05:48.320><c> take</c><00:05:48.600><c> your</c><00:05:48.720><c> character</c><00:05:49.440><c> into</c>
+
+00:05:50.070 --> 00:05:50.080 align:start position:0%
+step, you could take your character into
+ 
+
+00:05:50.080 --> 00:05:51.430 align:start position:0%
+step, you could take your character into
+DaVinci,
+
+00:05:51.430 --> 00:05:51.440 align:start position:0%
+DaVinci,
+ 
+
+00:05:51.440 --> 00:05:53.470 align:start position:0%
+DaVinci,
+and<00:05:51.720><c> you</c><00:05:51.840><c> can</c><00:05:52.080><c> isolate</c><00:05:52.640><c> that</c><00:05:52.880><c> background.</c>
+
+00:05:53.470 --> 00:05:53.480 align:start position:0%
+and you can isolate that background.
+ 
+
+00:05:53.480 --> 00:05:55.350 align:start position:0%
+and you can isolate that background.
+Show<00:05:53.640><c> you</c><00:05:53.720><c> that</c><00:05:53.920><c> quickly.</c><00:05:54.360><c> If</c><00:05:54.520><c> you</c><00:05:54.600><c> drag</c><00:05:55.080><c> in</c>
+
+00:05:55.350 --> 00:05:55.360 align:start position:0%
+Show you that quickly. If you drag in
+ 
+
+00:05:55.360 --> 00:05:56.910 align:start position:0%
+Show you that quickly. If you drag in
+your<00:05:55.560><c> character</c><00:05:56.040><c> there,</c><00:05:56.280><c> you</c><00:05:56.360><c> can</c><00:05:56.520><c> see</c><00:05:56.680><c> that's</c>
+
+00:05:56.910 --> 00:05:56.920 align:start position:0%
+your character there, you can see that's
+ 
+
+00:05:56.920 --> 00:05:59.230 align:start position:0%
+your character there, you can see that's
+got<00:05:57.080><c> a</c><00:05:57.120><c> slightly</c><00:05:57.480><c> gray</c><00:05:57.800><c> background.</c><00:05:58.800><c> We</c><00:05:58.880><c> click</c>
+
+00:05:59.230 --> 00:05:59.240 align:start position:0%
+got a slightly gray background. We click
+ 
+
+00:05:59.240 --> 00:06:01.910 align:start position:0%
+got a slightly gray background. We click
+on<00:05:59.480><c> here,</c><00:06:00.280><c> and</c><00:06:00.400><c> we</c><00:06:00.480><c> go</c><00:06:00.560><c> magic</c><00:06:00.920><c> mask,</c><00:06:01.680><c> and</c><00:06:01.800><c> then</c>
+
+00:06:01.910 --> 00:06:01.920 align:start position:0%
+on here, and we go magic mask, and then
+ 
+
+00:06:01.920 --> 00:06:04.390 align:start position:0%
+on here, and we go magic mask, and then
+we<00:06:02.040><c> just</c><00:06:02.280><c> draw</c><00:06:02.720><c> around</c><00:06:03.120><c> this</c><00:06:03.320><c> guy</c><00:06:03.600><c> like</c><00:06:03.840><c> this.</c>
+
+00:06:04.390 --> 00:06:04.400 align:start position:0%
+we just draw around this guy like this.
+ 
+
+00:06:04.400 --> 00:06:05.830 align:start position:0%
+we just draw around this guy like this.
+Then,<00:06:04.760><c> you</c><00:06:04.840><c> know,</c><00:06:05.000><c> you</c><00:06:05.120><c> can</c><00:06:05.240><c> just</c><00:06:05.480><c> draw</c><00:06:05.720><c> in</c>
+
+00:06:05.830 --> 00:06:05.840 align:start position:0%
+Then, you know, you can just draw in
+ 
+
+00:06:05.840 --> 00:06:07.230 align:start position:0%
+Then, you know, you can just draw in
+little<00:06:06.080><c> bits</c><00:06:06.360><c> that</c><00:06:06.480><c> are</c><00:06:06.600><c> sort</c><00:06:06.760><c> of</c><00:06:06.880><c> hidden.</c>
+
+00:06:07.230 --> 00:06:07.240 align:start position:0%
+little bits that are sort of hidden.
+ 
+
+00:06:07.240 --> 00:06:08.670 align:start position:0%
+little bits that are sort of hidden.
+This<00:06:07.400><c> does</c><00:06:07.600><c> not</c><00:06:07.880><c> need</c><00:06:08.040><c> to</c><00:06:08.120><c> be</c><00:06:08.240><c> perfect,</c>
+
+00:06:08.670 --> 00:06:08.680 align:start position:0%
+This does not need to be perfect,
+ 
+
+00:06:08.680 --> 00:06:11.150 align:start position:0%
+This does not need to be perfect,
+because<00:06:08.960><c> the</c><00:06:09.080><c> outside</c><00:06:10.080><c> is</c><00:06:10.400><c> pretty</c><00:06:10.760><c> white</c>
+
+00:06:11.150 --> 00:06:11.160 align:start position:0%
+because the outside is pretty white
+ 
+
+00:06:11.160 --> 00:06:13.630 align:start position:0%
+because the outside is pretty white
+anyway.<00:06:12.080><c> And</c><00:06:12.200><c> then</c><00:06:12.320><c> we</c><00:06:12.400><c> click</c><00:06:12.720><c> this</c><00:06:12.960><c> here</c><00:06:13.320><c> to</c>
+
+00:06:13.630 --> 00:06:13.640 align:start position:0%
+anyway. And then we click this here to
+ 
+
+00:06:13.640 --> 00:06:15.550 align:start position:0%
+anyway. And then we click this here to
+run<00:06:13.880><c> it.</c><00:06:14.120><c> Then,</c><00:06:14.360><c> if</c><00:06:14.520><c> we</c><00:06:14.600><c> go</c><00:06:14.760><c> back</c><00:06:15.120><c> onto</c><00:06:15.400><c> our</c>
+
+00:06:15.550 --> 00:06:15.560 align:start position:0%
+run it. Then, if we go back onto our
+ 
+
+00:06:15.560 --> 00:06:17.310 align:start position:0%
+run it. Then, if we go back onto our
+timeline<00:06:16.040><c> view,</c><00:06:16.320><c> you</c><00:06:16.440><c> now</c><00:06:16.680><c> you</c><00:06:16.760><c> can</c><00:06:16.920><c> see</c><00:06:17.160><c> it's</c>
+
+00:06:17.310 --> 00:06:17.320 align:start position:0%
+timeline view, you now you can see it's
+ 
+
+00:06:17.320 --> 00:06:19.230 align:start position:0%
+timeline view, you now you can see it's
+got<00:06:17.440><c> an</c><00:06:17.520><c> isolated</c><00:06:18.040><c> background,</c><00:06:18.920><c> and</c><00:06:19.000><c> then</c><00:06:19.120><c> we</c>
+
+00:06:19.230 --> 00:06:19.240 align:start position:0%
+got an isolated background, and then we
+ 
+
+00:06:19.240 --> 00:06:21.430 align:start position:0%
+got an isolated background, and then we
+can<00:06:19.360><c> just</c><00:06:19.600><c> add</c><00:06:19.920><c> a</c><00:06:20.000><c> solid</c><00:06:20.640><c> white</c><00:06:20.880><c> background</c>
+
+00:06:21.430 --> 00:06:21.440 align:start position:0%
+can just add a solid white background
+ 
+
+00:06:21.440 --> 00:06:23.670 align:start position:0%
+can just add a solid white background
+behind<00:06:21.960><c> it.</c><00:06:22.240><c> You</c><00:06:22.320><c> can</c><00:06:22.480><c> see</c><00:06:22.800><c> the</c><00:06:22.960><c> background</c><00:06:23.520><c> is</c>
+
+00:06:23.670 --> 00:06:23.680 align:start position:0%
+behind it. You can see the background is
+ 
+
+00:06:23.680 --> 00:06:25.670 align:start position:0%
+behind it. You can see the background is
+gone,<00:06:24.400><c> but</c><00:06:24.520><c> you</c><00:06:24.600><c> can</c><00:06:24.720><c> also</c><00:06:25.000><c> see</c><00:06:25.240><c> it's</c><00:06:25.400><c> kind</c><00:06:25.600><c> of</c>
+
+00:06:25.670 --> 00:06:25.680 align:start position:0%
+gone, but you can also see it's kind of
+ 
+
+00:06:25.680 --> 00:06:27.870 align:start position:0%
+gone, but you can also see it's kind of
+cropping<00:06:26.400><c> on</c><00:06:26.560><c> this</c><00:06:26.800><c> grid.</c><00:06:27.280><c> So,</c><00:06:27.400><c> we</c><00:06:27.520><c> can</c><00:06:27.680><c> just</c>
+
+00:06:27.870 --> 00:06:27.880 align:start position:0%
+cropping on this grid. So, we can just
+ 
+
+00:06:27.880 --> 00:06:30.150 align:start position:0%
+cropping on this grid. So, we can just
+say<00:06:28.040><c> this,</c><00:06:28.600><c> make</c><00:06:28.840><c> the</c><00:06:28.920><c> blend</c><00:06:29.320><c> mode</c><00:06:29.560><c> darken</c><00:06:30.040><c> on</c>
+
+00:06:30.150 --> 00:06:30.160 align:start position:0%
+say this, make the blend mode darken on
+ 
+
+00:06:30.160 --> 00:06:32.070 align:start position:0%
+say this, make the blend mode darken on
+the<00:06:30.240><c> videos,</c><00:06:31.080><c> and</c><00:06:31.240><c> what</c><00:06:31.400><c> that's</c><00:06:31.640><c> going</c><00:06:31.760><c> to</c><00:06:31.840><c> do</c>
+
+00:06:32.070 --> 00:06:32.080 align:start position:0%
+the videos, and what that's going to do
+ 
+
+00:06:32.080 --> 00:06:33.790 align:start position:0%
+the videos, and what that's going to do
+is<00:06:32.200><c> it's</c><00:06:32.320><c> going</c><00:06:32.440><c> to</c><00:06:32.560><c> punch</c><00:06:33.000><c> out</c><00:06:33.240><c> all</c><00:06:33.400><c> the</c><00:06:33.520><c> white</c>
+
+00:06:33.790 --> 00:06:33.800 align:start position:0%
+is it's going to punch out all the white
+ 
+
+00:06:33.800 --> 00:06:36.070 align:start position:0%
+is it's going to punch out all the white
+from<00:06:34.040><c> it,</c><00:06:34.480><c> essentially</c><00:06:35.120><c> making</c><00:06:35.480><c> it</c><00:06:35.640><c> look</c><00:06:35.880><c> like</c>
+
+00:06:36.070 --> 00:06:36.080 align:start position:0%
+from it, essentially making it look like
+ 
+
+00:06:36.080 --> 00:06:37.870 align:start position:0%
+from it, essentially making it look like
+a<00:06:36.120><c> transparent</c><00:06:36.880><c> video.</c><00:06:37.440><c> Right,</c><00:06:37.600><c> at</c><00:06:37.680><c> this</c>
+
+00:06:37.870 --> 00:06:37.880 align:start position:0%
+a transparent video. Right, at this
+ 
+
+00:06:37.880 --> 00:06:38.910 align:start position:0%
+a transparent video. Right, at this
+point<00:06:38.120><c> in</c><00:06:38.200><c> the</c><00:06:38.280><c> video,</c><00:06:38.520><c> you</c><00:06:38.640><c> might</c><00:06:38.840><c> be</c>
+
+00:06:38.910 --> 00:06:38.920 align:start position:0%
+point in the video, you might be
+ 
+
+00:06:38.920 --> 00:06:41.110 align:start position:0%
+point in the video, you might be
+thinking<00:06:39.360><c> that</c><00:06:39.680><c> two</c><00:06:39.920><c> videos</c><00:06:40.360><c> like</c><00:06:40.560><c> this</c><00:06:40.880><c> on</c><00:06:41.040><c> a</c>
+
+00:06:41.110 --> 00:06:41.120 align:start position:0%
+thinking that two videos like this on a
+ 
+
+00:06:41.120 --> 00:06:42.710 align:start position:0%
+thinking that two videos like this on a
+hero<00:06:41.440><c> section,</c><00:06:41.880><c> that's</c><00:06:42.080><c> going</c><00:06:42.200><c> to</c><00:06:42.280><c> be</c><00:06:42.360><c> really</c>
+
+00:06:42.710 --> 00:06:42.720 align:start position:0%
+hero section, that's going to be really
+ 
+
+00:06:42.720 --> 00:06:44.710 align:start position:0%
+hero section, that's going to be really
+heavy.<00:06:43.440><c> Well,</c><00:06:43.640><c> one</c><00:06:43.920><c> really</c><00:06:44.160><c> good</c><00:06:44.360><c> thing</c><00:06:44.480><c> about</c>
+
+00:06:44.710 --> 00:06:44.720 align:start position:0%
+heavy. Well, one really good thing about
+ 
+
+00:06:44.720 --> 00:06:46.510 align:start position:0%
+heavy. Well, one really good thing about
+Claude<00:06:45.040><c> is</c><00:06:45.160><c> you</c><00:06:45.280><c> can</c><00:06:45.440><c> literally</c><00:06:45.880><c> ask</c><00:06:46.240><c> it</c><00:06:46.400><c> to</c>
+
+00:06:46.510 --> 00:06:46.520 align:start position:0%
+Claude is you can literally ask it to
+ 
+
+00:06:46.520 --> 00:06:48.670 align:start position:0%
+Claude is you can literally ask it to
+compress<00:06:47.120><c> it</c><00:06:47.480><c> in</c><00:06:47.600><c> the</c><00:06:47.720><c> terminal.</c><00:06:48.360><c> So,</c><00:06:48.480><c> let's</c>
+
+00:06:48.670 --> 00:06:48.680 align:start position:0%
+compress it in the terminal. So, let's
+ 
+
+00:06:48.680 --> 00:06:50.870 align:start position:0%
+compress it in the terminal. So, let's
+just<00:06:48.840><c> say,</c><00:06:49.040><c> "Can</c><00:06:49.400><c> we</c><00:06:49.640><c> compress</c><00:06:50.200><c> the</c><00:06:50.280><c> videos?"</c>
+
+00:06:50.870 --> 00:06:50.880 align:start position:0%
+just say, "Can we compress the videos?"
+ 
+
+00:06:50.880 --> 00:06:53.630 align:start position:0%
+just say, "Can we compress the videos?"
+You<00:06:50.960><c> can</c><00:06:51.120><c> see</c><00:06:51.320><c> there,</c><00:06:51.560><c> character</c><00:06:52.240><c> one</c><00:06:52.680><c> MP4</c><00:06:53.360><c> was</c>
+
+00:06:53.630 --> 00:06:53.640 align:start position:0%
+You can see there, character one MP4 was
+ 
+
+00:06:53.640 --> 00:06:56.870 align:start position:0%
+You can see there, character one MP4 was
+6<00:06:53.880><c> megabytes,</c><00:06:54.480><c> now</c><00:06:54.840><c> it's</c><00:06:55.080><c> 650.</c><00:06:56.280><c> And</c><00:06:56.520><c> so,</c><00:06:56.760><c> you</c>
+
+00:06:56.870 --> 00:06:56.880 align:start position:0%
+6 megabytes, now it's 650. And so, you
+ 
+
+00:06:56.880 --> 00:06:58.590 align:start position:0%
+6 megabytes, now it's 650. And so, you
+know,<00:06:57.120><c> it</c><00:06:57.280><c> was</c><00:06:57.440><c> still</c><00:06:57.680><c> a</c><00:06:57.720><c> little</c><00:06:58.080><c> bit</c><00:06:58.280><c> heavy,</c>
+
+00:06:58.590 --> 00:06:58.600 align:start position:0%
+know, it was still a little bit heavy,
+ 
+
+00:06:58.600 --> 00:07:00.470 align:start position:0%
+know, it was still a little bit heavy,
+but<00:06:58.720><c> that's</c><00:06:58.920><c> a</c><00:06:59.000><c> massive</c><00:06:59.520><c> reduction</c><00:07:00.080><c> in</c><00:07:00.160><c> there.</c>
+
+00:07:00.470 --> 00:07:00.480 align:start position:0%
+but that's a massive reduction in there.
+ 
+
+00:07:00.480 --> 00:07:01.870 align:start position:0%
+but that's a massive reduction in there.
+You<00:07:00.560><c> know,</c><00:07:00.720><c> we'll</c><00:07:00.880><c> lose</c><00:07:01.200><c> a</c><00:07:01.280><c> little</c><00:07:01.680><c> bit</c><00:07:01.800><c> of</c>
+
+00:07:01.870 --> 00:07:01.880 align:start position:0%
+You know, we'll lose a little bit of
+ 
+
+00:07:01.880 --> 00:07:03.990 align:start position:0%
+You know, we'll lose a little bit of
+quality,<00:07:02.400><c> but</c><00:07:02.720><c> that</c><00:07:02.920><c> still</c><00:07:03.280><c> looks</c><00:07:03.680><c> really</c>
+
+00:07:03.990 --> 00:07:04.000 align:start position:0%
+quality, but that still looks really
+ 
+
+00:07:04.000 --> 00:07:05.830 align:start position:0%
+quality, but that still looks really
+good.<00:07:04.360><c> So,</c><00:07:04.480><c> let's</c><00:07:04.760><c> add</c><00:07:04.960><c> some</c><00:07:05.160><c> animation</c><00:07:05.720><c> to</c>
+
+00:07:05.830 --> 00:07:05.840 align:start position:0%
+good. So, let's add some animation to
+ 
+
+00:07:05.840 --> 00:07:07.630 align:start position:0%
+good. So, let's add some animation to
+the<00:07:05.960><c> actual</c><00:07:06.360><c> elements</c><00:07:06.840><c> of</c><00:07:06.960><c> the</c><00:07:07.040><c> site.</c><00:07:07.360><c> Let's</c>
+
+00:07:07.630 --> 00:07:07.640 align:start position:0%
+the actual elements of the site. Let's
+ 
+
+00:07:07.640 --> 00:07:08.870 align:start position:0%
+the actual elements of the site. Let's
+say,<00:07:07.800><c> "Let's</c><00:07:08.040><c> have</c><00:07:08.160><c> the</c><00:07:08.240><c> grid</c><00:07:08.520><c> come</c><00:07:08.720><c> on</c><00:07:08.800><c> the</c>
+
+00:07:08.870 --> 00:07:08.880 align:start position:0%
+say, "Let's have the grid come on the
+ 
+
+00:07:08.880 --> 00:07:11.430 align:start position:0%
+say, "Let's have the grid come on the
+screen<00:07:09.160><c> first,</c><00:07:09.560><c> grow</c><00:07:09.880><c> in,</c><00:07:10.320><c> the</c><00:07:10.440><c> H1</c><00:07:10.920><c> appearing</c>
+
+00:07:11.430 --> 00:07:11.440 align:start position:0%
+screen first, grow in, the H1 appearing
+ 
+
+00:07:11.440 --> 00:07:13.950 align:start position:0%
+screen first, grow in, the H1 appearing
+one<00:07:11.720><c> word</c><00:07:12.160><c> at</c><00:07:12.400><c> a</c><00:07:12.440><c> time."</c><00:07:13.360><c> And</c><00:07:13.520><c> now</c><00:07:13.720><c> if</c><00:07:13.840><c> we</c>
+
+00:07:13.950 --> 00:07:13.960 align:start position:0%
+one word at a time." And now if we
+ 
+
+00:07:13.960 --> 00:07:17.710 align:start position:0%
+one word at a time." And now if we
+refresh,
+
+00:07:17.710 --> 00:07:17.720 align:start position:0%
+ 
+ 
+
+00:07:17.720 --> 00:07:19.750 align:start position:0%
+ 
+how<00:07:18.000><c> cool</c><00:07:18.400><c> is</c><00:07:18.640><c> that?</c><00:07:19.200><c> So,</c><00:07:19.280><c> if</c><00:07:19.400><c> you</c><00:07:19.480><c> look</c><00:07:19.600><c> at</c><00:07:19.680><c> the</c>
+
+00:07:19.750 --> 00:07:19.760 align:start position:0%
+how cool is that? So, if you look at the
+ 
+
+00:07:19.760 --> 00:07:21.910 align:start position:0%
+how cool is that? So, if you look at the
+navigation,<00:07:20.480><c> it</c><00:07:20.600><c> gets</c><00:07:20.840><c> a</c><00:07:20.880><c> little</c><00:07:21.200><c> bit</c><00:07:21.400><c> broken</c>
+
+00:07:21.910 --> 00:07:21.920 align:start position:0%
+navigation, it gets a little bit broken
+ 
+
+00:07:21.920 --> 00:07:23.910 align:start position:0%
+navigation, it gets a little bit broken
+at<00:07:22.120><c> mobile.</c><00:07:22.720><c> So,</c><00:07:22.880><c> let's</c><00:07:23.200><c> fix</c><00:07:23.480><c> that.</c><00:07:23.680><c> Let's</c>
+
+00:07:23.910 --> 00:07:23.920 align:start position:0%
+at mobile. So, let's fix that. Let's
+ 
+
+00:07:23.920 --> 00:07:25.510 align:start position:0%
+at mobile. So, let's fix that. Let's
+say,<00:07:24.080><c> "Let's</c><00:07:24.400><c> make</c><00:07:24.560><c> it</c><00:07:24.640><c> responsive.</c><00:07:25.280><c> Nav</c>
+
+00:07:25.510 --> 00:07:25.520 align:start position:0%
+say, "Let's make it responsive. Nav
+ 
+
+00:07:25.520 --> 00:07:27.350 align:start position:0%
+say, "Let's make it responsive. Nav
+links<00:07:25.760><c> should</c><00:07:26.000><c> turn</c><00:07:26.320><c> into</c><00:07:26.520><c> a</c><00:07:26.600><c> burger</c><00:07:26.960><c> icon,</c>
+
+00:07:27.350 --> 00:07:27.360 align:start position:0%
+links should turn into a burger icon,
+ 
+
+00:07:27.360 --> 00:07:29.550 align:start position:0%
+links should turn into a burger icon,
+show<00:07:27.560><c> full-screen</c><00:07:28.240><c> nav</c><00:07:28.520><c> pop-up</c><00:07:29.040><c> with</c><00:07:29.160><c> a</c><00:07:29.200><c> cross</c>
+
+00:07:29.550 --> 00:07:29.560 align:start position:0%
+show full-screen nav pop-up with a cross
+ 
+
+00:07:29.560 --> 00:07:31.630 align:start position:0%
+show full-screen nav pop-up with a cross
+at<00:07:29.680><c> the</c><00:07:29.760><c> top.</c><00:07:30.600><c> Hide</c><00:07:30.880><c> the</c><00:07:30.960><c> characters</c><00:07:31.560><c> on</c>
+
+00:07:31.630 --> 00:07:31.640 align:start position:0%
+at the top. Hide the characters on
+ 
+
+00:07:31.640 --> 00:07:33.430 align:start position:0%
+at the top. Hide the characters on
+mobile.<00:07:32.120><c> Have</c><00:07:32.360><c> the</c><00:07:32.480><c> login</c><00:07:32.880><c> button</c><00:07:33.160><c> full</c>
+
+00:07:33.430 --> 00:07:33.440 align:start position:0%
+mobile. Have the login button full
+ 
+
+00:07:33.440 --> 00:07:37.270 align:start position:0%
+mobile. Have the login button full
+width."<00:07:33.960><c> So,</c><00:07:34.080><c> now</c><00:07:34.320><c> if</c><00:07:34.400><c> we</c><00:07:34.560><c> refresh,</c>
+
+00:07:37.270 --> 00:07:37.280 align:start position:0%
+width." So, now if we refresh,
+ 
+
+00:07:37.280 --> 00:07:39.430 align:start position:0%
+width." So, now if we refresh,
+and<00:07:37.440><c> we</c><00:07:37.560><c> resize</c><00:07:38.160><c> down,</c><00:07:38.480><c> you</c><00:07:38.560><c> can</c><00:07:38.760><c> see</c><00:07:39.080><c> that</c><00:07:39.280><c> our</c>
+
+00:07:39.430 --> 00:07:39.440 align:start position:0%
+and we resize down, you can see that our
+ 
+
+00:07:39.440 --> 00:07:42.150 align:start position:0%
+and we resize down, you can see that our
+nav<00:07:39.760><c> links</c><00:07:40.400><c> get</c><00:07:40.600><c> turned</c><00:07:40.960><c> into</c><00:07:41.200><c> here,</c><00:07:41.960><c> and</c><00:07:42.040><c> then</c>
+
+00:07:42.150 --> 00:07:42.160 align:start position:0%
+nav links get turned into here, and then
+ 
+
+00:07:42.160 --> 00:07:44.070 align:start position:0%
+nav links get turned into here, and then
+now<00:07:42.400><c> we</c><00:07:42.560><c> have</c><00:07:42.760><c> this</c><00:07:43.040><c> full-screen</c><00:07:43.760><c> sort</c><00:07:43.960><c> of</c>
+
+00:07:44.070 --> 00:07:44.080 align:start position:0%
+now we have this full-screen sort of
+ 
+
+00:07:44.080 --> 00:07:47.110 align:start position:0%
+now we have this full-screen sort of
+pop-up<00:07:44.640><c> navigation,</c><00:07:45.920><c> and</c><00:07:46.080><c> the</c><00:07:46.200><c> full</c><00:07:46.560><c> site</c><00:07:46.960><c> is</c>
+
+00:07:47.110 --> 00:07:47.120 align:start position:0%
+pop-up navigation, and the full site is
+ 
+
+00:07:47.120 --> 00:07:49.990 align:start position:0%
+pop-up navigation, and the full site is
+completely<00:07:48.280><c> responsive.</c><00:07:49.280><c> So,</c><00:07:49.440><c> in</c><00:07:49.600><c> literally</c>
+
+00:07:49.990 --> 00:07:50.000 align:start position:0%
+completely responsive. So, in literally
+ 
+
+00:07:50.000 --> 00:07:51.630 align:start position:0%
+completely responsive. So, in literally
+less<00:07:50.240><c> than</c><00:07:50.400><c> 10</c><00:07:50.640><c> minutes,</c><00:07:51.000><c> we've</c><00:07:51.160><c> managed</c><00:07:51.520><c> to</c>
+
+00:07:51.630 --> 00:07:51.640 align:start position:0%
+less than 10 minutes, we've managed to
+ 
+
+00:07:51.640 --> 00:07:54.030 align:start position:0%
+less than 10 minutes, we've managed to
+build<00:07:52.040><c> out</c><00:07:52.240><c> this</c><00:07:52.520><c> entire</c><00:07:53.120><c> website</c><00:07:53.720><c> with</c><00:07:53.840><c> some</c>
+
+00:07:54.030 --> 00:07:54.040 align:start position:0%
+build out this entire website with some
+ 
+
+00:07:54.040 --> 00:07:56.190 align:start position:0%
+build out this entire website with some
+complex<00:07:54.680><c> animations,</c><00:07:55.360><c> some</c><00:07:55.600><c> animated</c>
+
+00:07:56.190 --> 00:07:56.200 align:start position:0%
+complex animations, some animated
+ 
+
+00:07:56.200 --> 00:07:58.310 align:start position:0%
+complex animations, some animated
+characters,<00:07:57.360><c> and</c><00:07:57.480><c> I</c><00:07:57.520><c> made</c><00:07:57.680><c> a</c><00:07:57.720><c> couple</c><00:07:57.960><c> of</c><00:07:58.040><c> fine</c>
+
+00:07:58.310 --> 00:07:58.320 align:start position:0%
+characters, and I made a couple of fine
+ 
+
+00:07:58.320 --> 00:07:59.550 align:start position:0%
+characters, and I made a couple of fine
+little<00:07:58.480><c> tweaks</c><00:07:58.760><c> on</c><00:07:58.840><c> my</c><00:07:59.000><c> side,</c><00:07:59.200><c> but</c><00:07:59.280><c> I</c><00:07:59.320><c> think</c>
+
+00:07:59.550 --> 00:07:59.560 align:start position:0%
+little tweaks on my side, but I think
+ 
+
+00:07:59.560 --> 00:08:01.910 align:start position:0%
+little tweaks on my side, but I think
+this<00:07:59.720><c> is</c><00:07:59.880><c> looking</c><00:08:00.200><c> really</c><00:08:00.480><c> solid.</c><00:08:01.240><c> So,</c><00:08:01.400><c> now</c>
+
+00:08:01.910 --> 00:08:01.920 align:start position:0%
+this is looking really solid. So, now
+ 
+
+00:08:01.920 --> 00:08:03.150 align:start position:0%
+this is looking really solid. So, now
+let's<00:08:02.120><c> just</c><00:08:02.240><c> say</c><00:08:02.360><c> you</c><00:08:02.480><c> have</c><00:08:02.600><c> your</c><00:08:02.680><c> website.</c>
+
+00:08:03.150 --> 00:08:03.160 align:start position:0%
+let's just say you have your website.
+ 
+
+00:08:03.160 --> 00:08:05.590 align:start position:0%
+let's just say you have your website.
+How<00:08:03.320><c> do</c><00:08:03.480><c> you</c><00:08:03.600><c> push</c><00:08:03.840><c> this</c><00:08:04.080><c> live</c><00:08:04.680><c> online</c><00:08:05.240><c> into</c><00:08:05.560><c> a</c>
+
+00:08:05.590 --> 00:08:05.600 align:start position:0%
+How do you push this live online into a
+ 
+
+00:08:05.600 --> 00:08:07.310 align:start position:0%
+How do you push this live online into a
+live<00:08:05.920><c> website?</c><00:08:06.520><c> What</c><00:08:06.600><c> you</c><00:08:06.680><c> could</c><00:08:06.800><c> tell</c><00:08:07.000><c> Claude</c>
+
+00:08:07.310 --> 00:08:07.320 align:start position:0%
+live website? What you could tell Claude
+ 
+
+00:08:07.320 --> 00:08:09.030 align:start position:0%
+live website? What you could tell Claude
+at<00:08:07.400><c> this</c><00:08:07.560><c> point</c><00:08:07.920><c> is,</c><00:08:08.120><c> "Let's</c><00:08:08.400><c> push</c><00:08:08.640><c> this</c><00:08:08.880><c> to</c><00:08:09.000><c> a</c>
+
+00:08:09.030 --> 00:08:09.040 align:start position:0%
+at this point is, "Let's push this to a
+ 
+
+00:08:09.040 --> 00:08:11.230 align:start position:0%
+at this point is, "Let's push this to a
+GitHub<00:08:09.520><c> repo,</c><00:08:10.120><c> then</c><00:08:10.360><c> show</c><00:08:10.520><c> me</c><00:08:10.680><c> the</c><00:08:10.800><c> steps</c><00:08:11.160><c> of</c>
+
+00:08:11.230 --> 00:08:11.240 align:start position:0%
+GitHub repo, then show me the steps of
+ 
+
+00:08:11.240 --> 00:08:13.630 align:start position:0%
+GitHub repo, then show me the steps of
+publishing<00:08:11.840><c> this</c><00:08:12.120><c> live</c><00:08:12.520><c> on</c><00:08:12.720><c> Cloudflare."</c><00:08:13.480><c> And</c>
+
+00:08:13.630 --> 00:08:13.640 align:start position:0%
+publishing this live on Cloudflare." And
+ 
+
+00:08:13.640 --> 00:08:15.470 align:start position:0%
+publishing this live on Cloudflare." And
+this<00:08:13.760><c> whole</c><00:08:14.000><c> process</c><00:08:14.480><c> takes</c><00:08:14.720><c> literally</c><00:08:15.120><c> 5</c>
+
+00:08:15.470 --> 00:08:15.480 align:start position:0%
+this whole process takes literally 5
+ 
+
+00:08:15.480 --> 00:08:17.150 align:start position:0%
+this whole process takes literally 5
+minutes,<00:08:16.280><c> and</c><00:08:16.400><c> then</c><00:08:16.520><c> you</c><00:08:16.560><c> can</c><00:08:16.760><c> connect</c><00:08:17.120><c> a</c>
+
+00:08:17.150 --> 00:08:17.160 align:start position:0%
+minutes, and then you can connect a
+ 
+
+00:08:17.160 --> 00:08:18.790 align:start position:0%
+minutes, and then you can connect a
+domain<00:08:17.520><c> name,</c><00:08:17.840><c> and</c><00:08:17.960><c> you</c><00:08:18.040><c> can</c><00:08:18.160><c> actually</c><00:08:18.520><c> host</c>
+
+00:08:18.790 --> 00:08:18.800 align:start position:0%
+domain name, and you can actually host
+ 
+
+00:08:18.800 --> 00:08:20.990 align:start position:0%
+domain name, and you can actually host
+this<00:08:19.000><c> in</c><00:08:19.120><c> most</c><00:08:19.360><c> cases</c><00:08:20.120><c> for</c><00:08:20.320><c> free.</c><00:08:20.760><c> But</c><00:08:20.880><c> there</c>
+
+00:08:20.990 --> 00:08:21.000 align:start position:0%
+this in most cases for free. But there
+ 
+
+00:08:21.000 --> 00:08:22.670 align:start position:0%
+this in most cases for free. But there
+we<00:08:21.120><c> go,</c><00:08:21.280><c> guys.</c><00:08:21.520><c> That</c><00:08:21.840><c> is</c><00:08:21.960><c> a</c><00:08:22.040><c> little</c><00:08:22.280><c> bit</c><00:08:22.440><c> into</c>
+
+00:08:22.670 --> 00:08:22.680 align:start position:0%
+we go, guys. That is a little bit into
+ 
+
+00:08:22.680 --> 00:08:24.950 align:start position:0%
+we go, guys. That is a little bit into
+my<00:08:22.880><c> process</c><00:08:23.520><c> of</c><00:08:23.640><c> how</c><00:08:23.800><c> I</c><00:08:23.880><c> work</c><00:08:24.160><c> with</c><00:08:24.320><c> Figma</c><00:08:24.840><c> and</c>
+
+00:08:24.950 --> 00:08:24.960 align:start position:0%
+my process of how I work with Figma and
+ 
+
+00:08:24.960 --> 00:08:27.230 align:start position:0%
+my process of how I work with Figma and
+Claude,<00:08:25.440><c> and</c><00:08:25.560><c> go</c><00:08:25.680><c> back</c><00:08:26.000><c> and</c><00:08:26.120><c> forward</c><00:08:26.920><c> to</c><00:08:27.000><c> make</c>
+
+00:08:27.230 --> 00:08:27.240 align:start position:0%
+Claude, and go back and forward to make
+ 
+
+00:08:27.240 --> 00:08:30.030 align:start position:0%
+Claude, and go back and forward to make
+really<00:08:27.520><c> cool</c><00:08:27.800><c> stuff</c><00:08:28.440><c> in</c><00:08:28.640><c> very</c><00:08:29.000><c> little</c><00:08:29.360><c> time.</c>
+
+00:08:30.030 --> 00:08:30.040 align:start position:0%
+really cool stuff in very little time.
+ 
+
+00:08:30.040 --> 00:08:31.590 align:start position:0%
+really cool stuff in very little time.
+If<00:08:30.240><c> this</c><00:08:30.400><c> video</c><00:08:30.640><c> was</c><00:08:30.800><c> useful</c><00:08:31.120><c> for</c><00:08:31.240><c> you</c><00:08:31.320><c> guys,</c>
+
+00:08:31.590 --> 00:08:31.600 align:start position:0%
+If this video was useful for you guys,
+ 
+
+00:08:31.600 --> 00:08:33.830 align:start position:0%
+If this video was useful for you guys,
+please<00:08:31.880><c> hit</c><00:08:32.039><c> the</c><00:08:32.159><c> like</c><00:08:32.440><c> button.</c><00:08:32.960><c> Subscribe</c><00:08:33.680><c> if</c>
+
+00:08:33.830 --> 00:08:33.840 align:start position:0%
+please hit the like button. Subscribe if
+ 
+
+00:08:33.840 --> 00:08:35.510 align:start position:0%
+please hit the like button. Subscribe if
+you<00:08:33.919><c> want</c><00:08:34.039><c> to</c><00:08:34.120><c> see</c><00:08:34.280><c> more</c><00:08:34.479><c> stuff</c><00:08:34.880><c> like</c><00:08:35.080><c> this.</c>
+
+00:08:35.510 --> 00:08:35.520 align:start position:0%
+you want to see more stuff like this.
+ 
+
+00:08:35.520 --> 00:08:36.870 align:start position:0%
+you want to see more stuff like this.
+And<00:08:35.599><c> if</c><00:08:35.719><c> you</c><00:08:35.760><c> want</c><00:08:35.880><c> to</c><00:08:35.960><c> check</c><00:08:36.200><c> out</c><00:08:36.320><c> Higgs</c><00:08:36.560><c> Field</c>
+
+00:08:36.870 --> 00:08:36.880 align:start position:0%
+And if you want to check out Higgs Field
+ 
+
+00:08:36.880 --> 00:08:38.630 align:start position:0%
+And if you want to check out Higgs Field
+and<00:08:37.000><c> use</c><00:08:37.159><c> Seed</c><00:08:37.400><c> ants</c><00:08:37.599><c> 2.0</c><00:08:38.120><c> for</c><00:08:38.280><c> your</c><00:08:38.400><c> video</c>
+
+00:08:38.630 --> 00:08:38.640 align:start position:0%
+and use Seed ants 2.0 for your video
+ 
+
+00:08:38.640 --> 00:08:40.270 align:start position:0%
+and use Seed ants 2.0 for your video
+generations,<00:08:39.440><c> you</c><00:08:39.479><c> can</c><00:08:39.599><c> get</c><00:08:39.760><c> unlimited</c>
+
+00:08:40.270 --> 00:08:40.280 align:start position:0%
+generations, you can get unlimited
+ 
+
+00:08:40.280 --> 00:08:43.909 align:start position:0%
+generations, you can get unlimited
+generations<00:08:41.000><c> for</c><00:08:41.120><c> 7</c><00:08:41.599><c> days</c><00:08:42.320><c> at</c><00:08:42.520><c> 70%</c><00:08:43.400><c> off</c><00:08:43.640><c> using</c>
+
+00:08:43.909 --> 00:08:43.919 align:start position:0%
+generations for 7 days at 70% off using
+ 
+
+00:08:43.919 --> 00:08:45.790 align:start position:0%
+generations for 7 days at 70% off using
+the<00:08:44.039><c> link</c><00:08:44.480><c> in</c><00:08:44.600><c> the</c><00:08:44.680><c> description.</c><00:08:45.560><c> Thank</c><00:08:45.760><c> you</c>
+
+00:08:45.790 --> 00:08:45.800 align:start position:0%
+the link in the description. Thank you
+ 
+
+00:08:45.800 --> 00:08:47.270 align:start position:0%
+the link in the description. Thank you
+guys<00:08:46.000><c> for</c><00:08:46.120><c> watching.</c><00:08:46.680><c> I'll</c><00:08:46.760><c> catch</c><00:08:47.000><c> you</c><00:08:47.080><c> guys</c>
+
+00:08:47.270 --> 00:08:47.280 align:start position:0%
+guys for watching. I'll catch you guys
+ 
+
+00:08:47.280 --> 00:08:50.440 align:start position:0%
+guys for watching. I'll catch you guys
+soon.<00:08:48.120><c> Bye.</c>
+

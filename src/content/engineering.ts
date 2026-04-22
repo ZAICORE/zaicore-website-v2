@@ -1,5 +1,5 @@
 import type { LucideIcon } from "lucide-react";
-import { Cpu, Workflow, Eye, ShieldCheck, Waves, Network } from "lucide-react";
+import { Bot, Atom, Mic, Eye, LineChart, ShieldCheck } from "lucide-react";
 
 export type Vertical = {
   id: string;
@@ -12,58 +12,58 @@ export type Vertical = {
 export const engineering = {
   eyebrow: "Engineering",
   headline: {
-    lead: "Custom AI, shipped",
-    italic: "into real production.",
+    lead: "AI-first engineering,",
+    italic: "shipped into real production.",
   },
   intro:
-    "We build AI systems that teams actually use. Agents, pipelines, tooling, evals. The kind of work that shows up in the metrics the week after it ships.",
+    "We build the software off-the-shelf can't. Agents, proprietary models, real-time systems — engineered to how your team actually operates, not bent around a vendor's roadmap.",
   verticals: [
     {
-      id: "agents",
-      title: "Agents & copilots",
-      summary: "Custom agents wired to your workflows.",
+      id: "agentic",
+      title: "Agentic systems",
+      summary: "Agents that complete the task.",
       description:
-        "Claude, GPT, or whichever frontier model the job needs. Tool-using agents, streaming UIs, evals that keep them honest.",
-      icon: Cpu,
+        "Tool-using, computer-use, MCP-native. Multi-step autonomy with evals and safeguards that make the behavior reliable in production. Not chatbots.",
+      icon: Bot,
     },
     {
-      id: "pipelines",
-      title: "Data & retrieval",
-      summary: "RAG, ingest, observability.",
+      id: "models",
+      title: "Custom models",
+      summary: "When the frontier isn't enough.",
       description:
-        "Indexing pipelines, vector stores, retrieval that answers real questions. Instrumented so you can see why it gave the answer it gave.",
-      icon: Network,
+        "Post-training, fine-tunes, distillation, reward modeling on your data. A model shaped to your domain — yours, not a vendor's.",
+      icon: Atom,
     },
     {
       id: "voice",
       title: "Voice & realtime",
-      summary: "Streamed audio and video interfaces.",
+      summary: "Speech-to-speech that feels human.",
       description:
-        "Speech-to-speech, interruption handling, low-latency pipelines. The kind of work that feels magic when it lands.",
-      icon: Waves,
+        "Sub-200ms first-token latency, interruption handling, duplex audio. Built on frontier voice models and the infrastructure that keeps them snappy.",
+      icon: Mic,
     },
     {
       id: "vision",
       title: "Vision & multimodal",
-      summary: "Images, video, structured understanding.",
+      summary: "What the system sees becomes what it knows.",
       description:
-        "Document parsing, scene understanding, visual agents. What the model sees becomes what the product knows.",
+        "Document parsing, visual agents, video understanding. Multimodal pipelines that connect pixels to structured knowledge.",
       icon: Eye,
     },
     {
-      id: "ops",
-      title: "Infra & ops",
-      summary: "The scaffolding under the AI.",
+      id: "evals",
+      title: "Evals & observability",
+      summary: "The layer that makes AI shippable.",
       description:
-        "Railway, Vercel, Cloudflare. Typed APIs, CI gates, tests that actually catch regressions. Bet-your-launch-on-it infrastructure.",
-      icon: Workflow,
+        "Traces, ground truth, regression catches, dashboards. So \"it works on my machine\" becomes \"it works in production — and we can prove it.\"",
+      icon: LineChart,
     },
     {
       id: "security",
-      title: "Secure by construction",
-      summary: "Guardrails, audits, shipped safely.",
+      title: "Applied security",
+      summary: "Prompt injection, guardrails, compliance.",
       description:
-        "Prompt injection defense, secrets hygiene, SOC 2 trajectory. The security product informs every other engagement.",
+        "The cybersecurity discipline feeding back into how we build every other system. SOC 2 trajectory. ZAICORE Security is the same team.",
       icon: ShieldCheck,
     },
   ] satisfies Vertical[],

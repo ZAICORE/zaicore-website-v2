@@ -7,119 +7,125 @@ import { MediaSlot } from "@/components/media/MediaSlot";
 
 export function Hero() {
   return (
-    <section className="relative min-h-[92vh] w-full overflow-hidden bg-[color:var(--cream)] pt-28 md:pt-32">
-      <div className="mx-auto grid w-full max-w-[1280px] grid-cols-1 gap-10 px-6 pb-24 md:grid-cols-12 md:gap-12 md:px-10 md:pb-32 lg:px-14 lg:pt-16">
-        {/* LEFT — text column (5 cols) */}
-        <div className="relative z-10 md:col-span-5 md:pt-4">
-          <motion.p
-            initial={{ opacity: 0, y: 12 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1], delay: 0.15 }}
-            className="eyebrow"
-          >
-            {hero.eyebrow}
-          </motion.p>
+    <section className="relative w-full overflow-hidden bg-[color:var(--cream)] pt-28 md:pt-32">
+      {/* Ambient grid + radial vignette — Kyle-Skelly style, very subtle */}
+      <BackgroundGrid />
 
-          <motion.h1
-            initial={{ opacity: 0, y: 14 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1], delay: 0.25 }}
-            className="display mt-5 text-[clamp(2.6rem,5.6vw,4.8rem)] text-ink"
-          >
-            {hero.headline.lead}{" "}
-            <span className="serif-italic text-[color:var(--lapis-glow)]">
-              {hero.headline.italic}
-            </span>
-          </motion.h1>
+      <div className="relative mx-auto flex w-full max-w-[1400px] flex-col items-center px-6 pb-24 md:px-10 md:pb-32 lg:px-14">
+        {/* Eyebrow */}
+        <motion.p
+          initial={{ opacity: 0, y: 8 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1], delay: 0.15 }}
+          className="eyebrow text-center"
+        >
+          {hero.eyebrow}
+        </motion.p>
 
-          <motion.p
-            initial={{ opacity: 0, y: 12 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.45 }}
-            className="mt-6 max-w-md text-[1.05rem] leading-[1.55] text-muted md:text-[1.1rem]"
-          >
-            {hero.subline}
-          </motion.p>
+        {/* Title row — LEFT MASCOT · CENTER COLUMN · RIGHT MASCOT */}
+        <div className="mt-8 grid w-full grid-cols-[minmax(0,1fr)_minmax(0,auto)_minmax(0,1fr)] items-end gap-4 md:mt-6 md:gap-6 lg:gap-8">
+          <MascotSlot side="left" id={hero.mascots.left.id} delay={0.4} />
 
-          <motion.div
-            initial={{ opacity: 0, y: 12 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.6 }}
-            className="mt-8 flex flex-wrap items-center gap-3"
-          >
-            {hero.ctas.map((cta) => (
-              <Button
-                key={cta.label}
-                href={cta.href}
-                label={cta.label}
-                variant={cta.variant}
-                external={cta.external}
-              />
-            ))}
-          </motion.div>
+          <div className="flex flex-col items-center justify-end pb-6 md:pb-10">
+            <motion.h1
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1], delay: 0.3 }}
+              className="display max-w-[720px] text-center text-[clamp(2rem,5.8vw,5rem)] text-ink"
+            >
+              {hero.headline.lead}
+              <br />
+              <span className="serif-italic text-[color:var(--lapis-glow)]">
+                {hero.headline.italic}
+              </span>
+            </motion.h1>
 
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 0.9 }}
-            className="mt-10 flex items-center gap-3 text-[0.82rem] text-muted"
-          >
-            <span className="relative flex h-2 w-2">
-              <span className="absolute inset-0 animate-ping rounded-full bg-[color:var(--signal)] opacity-70" />
-              <span className="relative h-2 w-2 rounded-full bg-[color:var(--signal)]" />
-            </span>
-            <span>Currently building. Open for select engagements.</span>
-          </motion.div>
+            <motion.p
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.55 }}
+              className="mt-8 max-w-2xl text-center text-[1.05rem] leading-[1.6] text-muted md:text-[1.12rem]"
+            >
+              {hero.subline}
+            </motion.p>
+
+            <motion.div
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.7 }}
+              className="mt-8 flex flex-wrap items-center justify-center gap-3"
+            >
+              {hero.ctas.map((cta) => (
+                <Button
+                  key={cta.label}
+                  href={cta.href}
+                  label={cta.label}
+                  variant={cta.variant}
+                  external={cta.external}
+                />
+              ))}
+            </motion.div>
+          </div>
+
+          <MascotSlot side="right" id={hero.mascots.right.id} delay={0.5} />
         </div>
 
-        {/* RIGHT — media column (7 cols) */}
+        {/* Live dot */}
         <motion.div
-          initial={{ opacity: 0, scale: 0.98 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
-          className="relative md:col-span-7"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 1 }}
+          className="mt-8 flex items-center gap-3 text-[0.8rem] text-muted"
         >
-          <MediaSlot
-            assetId={hero.mediaId}
-            aspect="aspect-[4/5] md:aspect-[5/6]"
-            rounded="rounded-[32px]"
-            showStars
-            overlay={<HeroOverlay />}
-            className="shadow-[0_30px_80px_rgba(14,14,16,0.18)]"
-          />
-          <SpecBadge />
+          <span className="relative flex h-2 w-2">
+            <span className="absolute inset-0 animate-ping rounded-full bg-[color:var(--signal)] opacity-70" />
+            <span className="relative h-2 w-2 rounded-full bg-[color:var(--signal)]" />
+          </span>
+          <span>Currently building. Open for select engagements.</span>
         </motion.div>
       </div>
     </section>
   );
 }
 
-function HeroOverlay() {
+/**
+ * Free-standing mascot slot — no frame, no container, no label. Character (when
+ * present) sits directly on the hero background just like Kyle Skelly's
+ * characters on the Sculpt site.
+ */
+function MascotSlot({ side, id, delay }: { side: "left" | "right"; id: string; delay: number }) {
   return (
-    <div className="absolute inset-0 flex items-end justify-between p-6 md:p-8">
-      <div className="flex items-center gap-2 rounded-full bg-black/30 px-3 py-1.5 text-[0.68rem] uppercase tracking-[0.18em] text-white/90 backdrop-blur-md">
-        <span className="h-1.5 w-1.5 rounded-full bg-[color:var(--signal)]" />
-        Live · ZAICORE signal
-      </div>
-      <div className="hidden items-center gap-2 rounded-full bg-black/30 px-3 py-1.5 text-[0.68rem] uppercase tracking-[0.18em] text-white/90 backdrop-blur-md md:flex">
-        <span>4K · 16:9</span>
-      </div>
-    </div>
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay }}
+      className={`relative flex items-end ${side === "left" ? "justify-end" : "justify-start"}`}
+    >
+      <MediaSlot
+        assetId={id}
+        aspect="aspect-[3/4]"
+        rounded="rounded-none"
+        showGrain={false}
+        className="w-full max-w-[340px] md:max-w-[420px] lg:max-w-[500px] bg-transparent"
+      />
+    </motion.div>
   );
 }
 
-function SpecBadge() {
+function BackgroundGrid() {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 12 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 1, delay: 1.1, ease: [0.22, 1, 0.36, 1] }}
-      className="absolute -bottom-6 left-6 hidden max-w-[280px] rounded-2xl border border-hairline bg-[color:var(--paper)]/95 p-4 shadow-[0_20px_60px_rgba(14,14,16,0.08)] backdrop-blur md:block"
-    >
-      <p className="eyebrow mb-1">Recent</p>
-      <p className="text-sm leading-snug text-ink">
-        Shipped a real-time voice agent running on Claude Sonnet 4.6 with 110ms first-token latency.
-      </p>
-    </motion.div>
+    <div
+      aria-hidden
+      className="pointer-events-none absolute inset-0 -z-10"
+      style={{
+        backgroundImage:
+          "linear-gradient(to right, rgba(14,14,16,0.035) 1px, transparent 1px), linear-gradient(to bottom, rgba(14,14,16,0.035) 1px, transparent 1px)",
+        backgroundSize: "64px 64px",
+        maskImage:
+          "radial-gradient(ellipse 85% 70% at 50% 45%, #000 30%, transparent 75%)",
+        WebkitMaskImage:
+          "radial-gradient(ellipse 85% 70% at 50% 45%, #000 30%, transparent 75%)",
+      }}
+    />
   );
 }
