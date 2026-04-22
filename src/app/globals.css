@@ -6,15 +6,15 @@
 
 :root {
   /* Surfaces */
-  --cream: #faf7f2;
-  --cream-soft: #f4efe6;
+  --cream: #ffffff;
+  --cream-soft: #fafafa;
   --paper: #ffffff;
   --ink: #0e0e10;
   --ink-soft: #1a1a1c;
-  --muted: #5a5a60;
-  --muted-soft: #8c8c93;
-  --hairline: #e6e2db;
-  --hairline-strong: #d7d1c6;
+  --muted: #6b6b72;
+  --muted-soft: #9a9aa1;
+  --hairline: #ececec;
+  --hairline-strong: #d8d8d8;
 
   /* Brand — engineering */
   --lapis: #1a2744;
