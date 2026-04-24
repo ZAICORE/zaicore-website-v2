@@ -29,31 +29,32 @@ export function Nav() {
       )}
     >
       <nav className="mx-auto flex w-full max-w-[1280px] items-center justify-between px-6 py-4 md:px-10 md:py-5 lg:px-14">
-        <Link href="/" className="flex items-center gap-2">
-          <LogoMark />
-          <span className="text-[0.95rem] font-medium tracking-[-0.01em]">{site.name}</span>
+        <Link href="/" className="flex items-center">
+          <span className="text-[1.05rem] font-bold uppercase tracking-[-0.04em] text-ink">{site.name}</span>
         </Link>
 
         <div className="hidden items-center gap-1 md:flex">
-          {nav.primary.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className={cn(
-                "relative rounded-full px-4 py-2 text-sm transition-colors",
-                "hover:bg-[color:var(--hairline)]/60",
-                "accent" in item && item.accent && "text-ink",
-              )}
-            >
-              {"accent" in item && item.accent && (
-                <span
-                  aria-hidden
-                  className="absolute left-3 top-1/2 h-1.5 w-1.5 -translate-y-1/2 rounded-full bg-[color:var(--signal)] shadow-[0_0_12px_rgba(44,221,233,0.7)]"
-                />
-              )}
-              <span className={"accent" in item && item.accent ? "pl-4" : ""}>{item.label}</span>
-            </Link>
-          ))}
+          {nav.primary.map((item) =>
+            item.external ? (
+              <a
+                key={item.href}
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-full px-4 py-2 text-sm text-ink-soft transition-colors hover:text-ink"
+              >
+                {item.label}
+              </a>
+            ) : (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="rounded-full px-4 py-2 text-sm text-ink-soft transition-colors hover:text-ink"
+              >
+                {item.label}
+              </Link>
+            ),
+          )}
         </div>
 
         <Link
@@ -64,17 +65,5 @@ export function Nav() {
         </Link>
       </nav>
     </motion.header>
-  );
-}
-
-function LogoMark() {
-  return (
-    <span
-      aria-hidden
-      className="relative inline-flex h-7 w-7 items-center justify-center"
-    >
-      <span className="absolute inset-0 rounded-[9px] bg-gradient-to-br from-[color:var(--lapis-glow)] via-[color:var(--lapis)] to-[color:var(--ink)]" />
-      <span className="relative h-2 w-2 rounded-full bg-[color:var(--signal)] shadow-[0_0_10px_rgba(44,221,233,0.9)]" />
-    </span>
   );
 }

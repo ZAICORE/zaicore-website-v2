@@ -14,31 +14,35 @@ export const site = {
   },
 } as const;
 
+export type NavItem = {
+  label: string;
+  href: string;
+  external?: boolean;
+};
+
 export const nav = {
   primary: [
-    { label: "Engineering", href: "#engineering" },
-    { label: "ZAICORE Security", href: "#security", accent: true },
-    { label: "About", href: "#about" },
-    { label: "Contact", href: "#contact" },
-  ],
-  cta: { label: "Book a call", href: "#contact" },
+    { label: "Engineering", href: "/engineering" },
+    { label: "Security", href: "https://security.zaicore.com", external: true },
+  ] satisfies readonly NavItem[],
+  cta: { label: "Book a call", href: "/book" },
 } as const;
 
 export const footer = {
   columns: [
     {
-      title: "Company",
+      title: "Work",
       links: [
-        { label: "About", href: "#about" },
-        { label: "Contact", href: "#contact" },
-        { label: "Careers", href: "/careers" },
+        { label: "Engineering", href: "/engineering" },
+        { label: "ZAICORE Security", href: "https://security.zaicore.com" },
+        { label: "Book a call", href: "/book" },
       ],
     },
     {
-      title: "Products",
+      title: "Contact",
       links: [
-        { label: "ZAICORE Security", href: "https://security.zaicore.com" },
-        { label: "Engineering Services", href: "#engineering" },
+        { label: "hello@zaicore.com", href: "mailto:hello@zaicore.com" },
+        { label: "zachary@zaicore.com", href: "mailto:zachary@zaicore.com" },
       ],
     },
     {

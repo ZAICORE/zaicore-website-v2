@@ -3,6 +3,7 @@ import { Footer } from "@/components/layout/Footer";
 import { Hero } from "@/components/home/Hero";
 import { EngineeringSection } from "@/components/home/EngineeringSection";
 import { SecuritySection } from "@/components/home/SecuritySection";
+import { FinalCTA } from "@/components/home/FinalCTA";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Hero />
         <EngineeringSection />
         <SecuritySection />
+        <FinalCTA />
       </main>
       <Footer />
     </>

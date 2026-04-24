@@ -5,10 +5,10 @@
    ========================================================================== */
 
 :root {
-  /* Surfaces */
-  --cream: #ffffff;
-  --cream-soft: #fafafa;
-  --paper: #ffffff;
+  /* Surfaces — matched to the hero video's warm off-white so the seam disappears */
+  --cream: #faf8f7;
+  --cream-soft: #f4f1ee;
+  --paper: #faf8f7;
   --ink: #0e0e10;
   --ink-soft: #1a1a1c;
   --muted: #6b6b72;

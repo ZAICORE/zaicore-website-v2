@@ -1,6 +1,10 @@
 import Link from "next/link";
 import { site, footer } from "@/content/site";
 
+function isExternal(href: string): boolean {
+  return href.startsWith("http://") || href.startsWith("https://") || href.startsWith("mailto:");
+}
+
 export function Footer() {
   return (
     <footer className="relative w-full border-t border-hairline bg-[color:var(--cream-soft)]">
@@ -16,16 +20,30 @@ export function Footer() {
             <div key={col.title}>
               <p className="eyebrow mb-4">{col.title}</p>
               <ul className="space-y-2">
-                {col.links.map((l) => (
-                  <li key={l.href}>
-                    <Link
-                      href={l.href}
-                      className="text-sm text-ink-soft transition-colors hover:text-ink"
-                    >
-                      {l.label}
-                    </Link>
-                  </li>
-                ))}
+                {col.links.map((l) =>
+                  isExternal(l.href) ? (
+                    <li key={l.href}>
+                      <a
+                        href={l.href}
+                        className="text-sm text-ink-soft transition-colors hover:text-ink"
+                        {...(l.href.startsWith("http")
+                          ? { target: "_blank", rel: "noopener noreferrer" }
+                          : {})}
+                      >
+                        {l.label}
+                      </a>
+                    </li>
+                  ) : (
+                    <li key={l.href}>
+                      <Link
+                        href={l.href}
+                        className="text-sm text-ink-soft transition-colors hover:text-ink"
+                      >
+                        {l.label}
+                      </Link>
+                    </li>
+                  ),
+                )}
               </ul>
             </div>
           ))}

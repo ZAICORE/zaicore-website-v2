@@ -1,73 +1,152 @@
+"use client";
+
+import { motion } from "motion/react";
 import { engineering } from "@/content/engineering";
-import { Section } from "@/components/ui/Section";
 import { Reveal } from "@/components/motion/Reveal";
-import { Stagger, StaggerItem } from "@/components/motion/Stagger";
 import { MediaSlot } from "@/components/media/MediaSlot";
+import { Button } from "@/components/ui/Button";
 
 export function EngineeringSection() {
   return (
-    <Section id="engineering" tone="cream" className="border-t border-hairline py-24 md:py-36 lg:py-44">
-      {/* HEADER */}
-      <div className="mx-auto max-w-4xl text-center">
-        <Reveal>
-          <p className="eyebrow">{engineering.eyebrow}</p>
-          <h2 className="display mt-6 text-[clamp(2.2rem,5vw,4rem)] text-ink">
-            {engineering.headline.lead}{" "}
-            <span className="serif-italic text-[color:var(--lapis-glow)]">
-              {engineering.headline.italic}
-            </span>
-          </h2>
-          <p className="mx-auto mt-7 max-w-2xl text-[1.05rem] leading-[1.6] text-muted md:text-[1.12rem]">
-            {engineering.intro}
-          </p>
-        </Reveal>
+    <section
+      id="engineering"
+      className="relative w-full overflow-hidden border-t border-hairline bg-[color:var(--cream)]"
+    >
+      {/* Desktop: video on the left, text column on the right */}
+      <div className="relative mx-auto hidden w-full max-w-[1680px] md:block">
+        <div className="relative">
+          <MediaSlot
+            assetId="engineeringShowreel"
+            aspect="aspect-[16/9]"
+            rounded="rounded-none"
+            showGrain={false}
+            transparentContainer
+            fit="contain"
+            className="w-full bg-transparent"
+          />
+
+          {/* Text column anchored to the right half of the video */}
+          <div className="pointer-events-none absolute inset-y-0 right-0 flex w-[48%] items-center pr-[3%] lg:w-[44%] lg:pr-[4%]">
+            <div className="w-full max-w-[560px]">
+              <motion.p
+                initial={{ opacity: 0, y: 8 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-120px" }}
+                transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+                className="eyebrow"
+              >
+                {engineering.eyebrow}
+              </motion.p>
+              <motion.h2
+                initial={{ opacity: 0, y: 12 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-120px" }}
+                transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.1 }}
+                className="display mt-3 text-[clamp(1.5rem,2.4vw,2.4rem)] leading-[1.05] tracking-[-0.03em] text-ink"
+              >
+                {engineering.headline.lead}{" "}
+                <span className="serif-italic text-[color:var(--lapis-glow)]">
+                  {engineering.headline.italic}
+                </span>
+              </motion.h2>
+              <motion.p
+                initial={{ opacity: 0, y: 8 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-120px" }}
+                transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
+                className="mt-3 max-w-md text-[clamp(0.85rem,1vw,0.95rem)] leading-[1.5] text-muted"
+              >
+                {engineering.intro}
+              </motion.p>
+
+              <motion.ul
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-120px" }}
+                transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.3 }}
+                className="mt-5 space-y-3"
+              >
+                {engineering.verticals.map((v) => {
+                  const Icon = v.icon;
+                  return (
+                    <li key={v.id} className="flex items-start gap-3">
+                      <span className="mt-[2px] inline-flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-lg bg-[color:var(--lapis-mist)] text-[color:var(--lapis-glow)]">
+                        <Icon className="h-3.5 w-3.5" strokeWidth={1.5} />
+                      </span>
+                      <div>
+                        <p className="text-[clamp(0.82rem,0.95vw,0.92rem)] font-medium tracking-[-0.01em] text-ink">
+                          {v.title}
+                        </p>
+                        <p className="text-[clamp(0.76rem,0.88vw,0.86rem)] leading-[1.45] text-muted">
+                          {v.summary}
+                        </p>
+                      </div>
+                    </li>
+                  );
+                })}
+              </motion.ul>
+
+              <motion.div
+                initial={{ opacity: 0, y: 8 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-120px" }}
+                transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.4 }}
+                className="pointer-events-auto mt-6"
+              >
+                <Button
+                  href={engineering.cta.href}
+                  label={engineering.cta.label}
+                  variant="primary"
+                />
+              </motion.div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      {/* SHOWREEL — Seedance slot for an engineering clip */}
-      <Reveal delay={0.1} className="mx-auto mt-16 w-full max-w-[1100px] md:mt-20">
+      {/* Mobile: stacked */}
+      <div className="md:hidden">
         <MediaSlot
-          assetId={engineering.mediaId}
+          assetId="engineeringShowreel"
           aspect="aspect-[16/9]"
-          rounded="rounded-[28px]"
-          showStars
-          className="shadow-[0_40px_120px_-20px_rgba(14,14,16,0.25)] ring-1 ring-inset ring-hairline"
-          overlay={
-            <div className="absolute inset-0 flex items-end p-6 md:p-10">
-              <div className="flex items-center gap-2 rounded-full bg-black/30 px-3 py-1.5 text-[0.68rem] uppercase tracking-[0.18em] text-white/90 backdrop-blur-md">
-                <span className="h-1.5 w-1.5 rounded-full bg-[color:var(--signal)]" />
-                Showreel · engineering
-              </div>
-            </div>
-          }
+          rounded="rounded-none"
+          showGrain={false}
+          transparentContainer
+          fit="contain"
+          className="w-full bg-transparent"
         />
-      </Reveal>
-
-      {/* VERTICALS GRID */}
-      <Stagger className="mt-16 grid grid-cols-1 gap-5 md:mt-24 md:grid-cols-2 md:gap-6 lg:grid-cols-3" stagger={0.06}>
-        {engineering.verticals.map((v) => {
-          const Icon = v.icon;
-          return (
-            <StaggerItem key={v.id}>
-              <article className="group relative h-full overflow-hidden rounded-[20px] border border-hairline bg-[color:var(--paper)] p-7 transition-all duration-500 ease-out hover:-translate-y-1 hover:border-hairline-strong hover:shadow-[0_30px_80px_-20px_rgba(14,14,16,0.15)]">
-                <div className="mb-6 inline-flex h-11 w-11 items-center justify-center rounded-xl bg-[color:var(--lapis-mist)] text-[color:var(--lapis-glow)]">
-                  <Icon className="h-5 w-5" strokeWidth={1.5} />
+        <div className="mx-auto max-w-3xl px-6 py-12 text-center">
+          <Reveal>
+            <p className="eyebrow">{engineering.eyebrow}</p>
+            <h2 className="display mt-4 text-[clamp(1.9rem,6vw,2.4rem)] text-ink">
+              {engineering.headline.lead}{" "}
+              <span className="serif-italic text-[color:var(--lapis-glow)]">
+                {engineering.headline.italic}
+              </span>
+            </h2>
+            <p className="mt-5 text-[1rem] leading-[1.55] text-muted">{engineering.intro}</p>
+          </Reveal>
+          <Reveal delay={0.1} className="mt-8 space-y-5 text-left">
+            {engineering.verticals.map((v) => {
+              const Icon = v.icon;
+              return (
+                <div key={v.id} className="flex items-start gap-3">
+                  <span className="mt-[2px] inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-lg bg-[color:var(--lapis-mist)] text-[color:var(--lapis-glow)]">
+                    <Icon className="h-4 w-4" strokeWidth={1.5} />
+                  </span>
+                  <div>
+                    <p className="text-[0.95rem] font-medium text-ink">{v.title}</p>
+                    <p className="text-[0.88rem] leading-[1.5] text-muted">{v.summary}</p>
+                  </div>
                 </div>
-                <h3 className="text-[1.15rem] font-medium tracking-[-0.015em] text-ink">
-                  {v.title}
-                </h3>
-                <p className="mt-1.5 text-[0.9rem] text-muted">{v.summary}</p>
-                <p className="mt-5 text-[0.93rem] leading-[1.6] text-ink-soft">
-                  {v.description}
-                </p>
-                <div
-                  aria-hidden
-                  className="absolute -right-20 -top-20 h-52 w-52 rounded-full bg-[color:var(--lapis-mist)] opacity-0 blur-3xl transition-opacity duration-700 group-hover:opacity-100"
-                />
-              </article>
-            </StaggerItem>
-          );
-        })}
-      </Stagger>
-    </Section>
+              );
+            })}
+          </Reveal>
+          <Reveal delay={0.2} className="mt-8">
+            <Button href={engineering.cta.href} label={engineering.cta.label} variant="primary" />
+          </Reveal>
+        </div>
+      </div>
+    </section>
   );
 }
