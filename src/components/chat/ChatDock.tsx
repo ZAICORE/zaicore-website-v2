@@ -182,7 +182,7 @@ export function ChatDock() {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0 }}
                     transition={{ duration: 0.2 }}
-                    className="mt-2 text-[0.78rem] text-[#b84444]"
+                    className="mt-2 text-[0.78rem] text-[color:#b84b4b]"
                     role="alert"
                   >
                     {error}
