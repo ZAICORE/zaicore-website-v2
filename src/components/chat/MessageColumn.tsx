@@ -16,13 +16,28 @@ const ENTER_ANIMATE = { opacity: 1, y: 0 };
 
 export function MessageColumn({ messages, streaming }: Props) {
   const scrollRef = useRef<HTMLDivElement | null>(null);
+  const lastIdRef = useRef<string | null>(null);
 
-  // Scroll to bottom on content change. Use rAF so the scroll happens after
-  // layout settles, not mid-reflow -- prevents jitter while tokens stream in.
-  // Only auto-scroll if the user is already near the bottom; respect manual scroll-up.
+  // Scroll behavior:
+  //   - New message (id changed): always scroll to bottom. User just sent or
+  //     assistant placeholder just spawned -- they want to see it.
+  //   - Same message updating (token stream): only scroll if user is near
+  //     bottom. Respect manual scroll-up to read history.
   useEffect(() => {
     const el = scrollRef.current;
     if (!el) return;
+    const visibleMsgs = messages.filter((m) => m.role === "user" || m.role === "assistant");
+    const lastId = visibleMsgs[visibleMsgs.length - 1]?.id ?? null;
+    const isNewMessage = lastId !== lastIdRef.current;
+    lastIdRef.current = lastId;
+
+    if (isNewMessage) {
+      const id = requestAnimationFrame(() => {
+        el.scrollTop = el.scrollHeight;
+      });
+      return () => cancelAnimationFrame(id);
+    }
+
     const distanceFromBottom = el.scrollHeight - el.clientHeight - el.scrollTop;
     if (distanceFromBottom > 120) return;
     const id = requestAnimationFrame(() => {
