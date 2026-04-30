@@ -26,9 +26,13 @@ export function ChatDock() {
   const [inputValue, setInputValue] = useState("");
   const abortRef = useRef<AbortController | null>(null);
 
-  // Hydrate from localStorage after mount (avoids SSR mismatch)
+  // Hydrate from localStorage after mount (avoids SSR mismatch).
+  // localStorage is not available server-side, so we must read it in a client-only
+  // mount effect and set state once. The cascading-render concern doesn't apply here
+  // because the dependency array is empty and this fires exactly once.
   useEffect(() => {
     const stored = loadConversation();
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setConv(stored ?? newConversation());
     if (stored && stored.messages.length > 0) {
       setExpanded(true);
