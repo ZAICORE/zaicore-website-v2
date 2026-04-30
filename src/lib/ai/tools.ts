@@ -88,13 +88,23 @@ export async function executeTool(
   const transcript = formatTranscript(conversation);
   const workingOnWithTranscript = `${a.workingOn}\n\n---\nConversation transcript:\n${transcript}`;
 
-  const result = await sendBookingEmail({
-    name: a.name,
-    email: a.email,
-    company: a.company,
-    workingOn: workingOnWithTranscript,
-    timeline: a.timeline,
-  });
+  // I6: catch thrown exceptions from sendBookingEmail (network blip, SDK error)
+  let result: Awaited<ReturnType<typeof sendBookingEmail>>;
+  try {
+    result = await sendBookingEmail({
+      name: a.name,
+      email: a.email,
+      company: a.company,
+      workingOn: workingOnWithTranscript,
+      timeline: a.timeline,
+    });
+  } catch {
+    return {
+      ok: false,
+      message:
+        "Booking submission failed. Tell the user to email zachary@zaicore.com directly.",
+    };
+  }
 
   if (!result.ok) {
     return {
