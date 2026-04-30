@@ -66,13 +66,7 @@ export async function POST(req: Request) {
   const ip =
     req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? "unknown";
 
-  if (rateLimited(ip)) {
-    return NextResponse.json(
-      { error: "Slow down -- try again in an hour." },
-      { status: 429 },
-    );
-  }
-
+  // Parse and validate BEFORE consuming quota -- only count requests that will be processed
   let payload: { messages?: ChatMessage[] };
   try {
     payload = (await req.json()) as { messages?: ChatMessage[] };
@@ -95,6 +89,14 @@ export async function POST(req: Request) {
     return NextResponse.json(
       { error: "Last message must be a user message under 4000 chars" },
       { status: 400 },
+    );
+  }
+
+  // Validation passed -- now charge the rate limit bucket
+  if (rateLimited(ip)) {
+    return NextResponse.json(
+      { error: "Slow down -- try again in an hour." },
+      { status: 429 },
     );
   }
 
