@@ -6,7 +6,7 @@ export const site = {
     "ZAICORE builds AI systems and ships ZAICORE Security — a cybersecurity product for people who want a plan, not notifications.",
   url: "https://zaicore.com",
   securityUrl: "https://security.zaicore.com",
-  email: "hello@zaicore.com",
+  email: "zachary@zaicore.com",
   social: {
     x: "https://x.com/zaicore",
     linkedin: "https://www.linkedin.com/company/zaicore",
@@ -41,7 +41,6 @@ export const footer = {
     {
       title: "Contact",
       links: [
-        { label: "hello@zaicore.com", href: "mailto:hello@zaicore.com" },
         { label: "zachary@zaicore.com", href: "mailto:zachary@zaicore.com" },
       ],
     },

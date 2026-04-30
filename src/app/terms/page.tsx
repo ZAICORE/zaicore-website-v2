@@ -94,10 +94,10 @@ export default function TermsPage() {
         <p>
           Email{" "}
           <a
-            href="mailto:hello@zaicore.com"
+            href="mailto:zachary@zaicore.com"
             className="text-ink underline decoration-hairline-strong underline-offset-4 hover:decoration-ink"
           >
-            hello@zaicore.com
+            zachary@zaicore.com
           </a>{" "}
           for anything here.
         </p>
