@@ -9,7 +9,7 @@ import { disciplines } from "@/content/disciplines";
 export const metadata: Metadata = {
   title: "Engineering",
   description:
-    "Thirteen disciplines, one team, one bar. Agentic systems, context engineering, platform, security, compliance — shipped.",
+    "Thirteen disciplines, one team, one bar. Agentic systems, context engineering, platform, security, compliance. Shipped.",
 };
 
 export default function EngineeringPage() {

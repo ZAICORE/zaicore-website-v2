@@ -23,7 +23,7 @@ export default function PrivacyPage() {
     >
       <LegalSection heading="What this covers">
         <p>
-          This policy covers <strong>zaicore.com</strong> — our engineering marketing site and the
+          This policy covers <strong>zaicore.com</strong>, our engineering marketing site and the
           booking form on this site. It does <em>not</em> cover{" "}
           <Link
             href="https://security.zaicore.com"
@@ -39,11 +39,11 @@ export default function PrivacyPage() {
         <p>Only what you hand us. Specifically:</p>
         <ul className="list-disc space-y-2 pl-5">
           <li>
-            <strong>Booking form submissions</strong> — your name, email, an optional company name,
+            <strong>Booking form submissions</strong>: your name, email, an optional company name,
             what you&apos;re working on, and an optional timeline. You submit this on purpose.
           </li>
           <li>
-            <strong>Standard web server logs</strong> — IP address and request metadata, retained
+            <strong>Standard web server logs</strong>: IP address and request metadata, retained
             briefly for abuse prevention and basic analytics.
           </li>
         </ul>

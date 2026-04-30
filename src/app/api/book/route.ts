@@ -65,7 +65,7 @@ export async function POST(req: Request) {
 
   const result = await sendBookingEmail({ name, email, company, workingOn, timeline });
   if (!result.ok) {
-    return NextResponse.json({ error: "Couldn't send — try again in a moment." }, { status: 502 });
+    return NextResponse.json({ error: "Couldn't send. Try again in a moment." }, { status: 502 });
   }
   return NextResponse.json({ ok: true });
 }

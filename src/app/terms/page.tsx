@@ -21,7 +21,7 @@ export default function TermsPage() {
     >
       <LegalSection heading="Scope">
         <p>
-          These terms govern use of <strong>zaicore.com</strong> — the marketing site and booking
+          These terms govern use of <strong>zaicore.com</strong>, the marketing site and booking
           form. They do not govern ZAICORE Security, which has its own product terms of service.
         </p>
       </LegalSection>
@@ -56,7 +56,7 @@ export default function TermsPage() {
 
       <LegalSection heading="Bookings are not contracts">
         <p>
-          Submitting the booking form opens a conversation — it does not create a binding
+          Submitting the booking form opens a conversation. It does not create a binding
           engagement. A formal engagement only exists once both parties sign a dedicated
           agreement.
         </p>

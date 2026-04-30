@@ -17,7 +17,7 @@ type Props = {
   overlay?: React.ReactNode;
   /**
    * When true, renders NOTHING (empty space) if the asset has no src.
-   * Used for mascot slots — we don't want an ugly gradient block when
+   * Used for mascot slots, we don't want an ugly gradient block when
    * the real character image hasn't dropped in yet.
    */
   invisibleWhenEmpty?: boolean;

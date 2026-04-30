@@ -107,7 +107,7 @@ export function BookForm() {
               placeholder="e.g. starting next month, flexible, exploring"
             />
 
-            {/* honeypot — hidden from humans, attractive to bots */}
+            {/* honeypot, hidden from humans, attractive to bots */}
             <input
               type="text"
               name="website"

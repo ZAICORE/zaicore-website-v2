@@ -3,7 +3,7 @@ export const site = {
   legalName: "Zaicore Software Solutions Inc.",
   tagline: "AI engineering and applied security.",
   description:
-    "ZAICORE builds AI systems and ships ZAICORE Security — a cybersecurity product for people who want a plan, not notifications.",
+    "ZAICORE builds AI systems and ships ZAICORE Security, a cybersecurity product for people who want a plan, not notifications.",
   url: "https://zaicore.com",
   securityUrl: "https://security.zaicore.com",
   email: "zachary@zaicore.com",

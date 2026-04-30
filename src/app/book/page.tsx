@@ -17,7 +17,7 @@ export default function BookPage() {
       <main className="relative w-full bg-[color:var(--cream)] pt-28 md:pt-36">
         <section className="mx-auto w-full max-w-[1280px] px-6 pb-24 md:px-10 md:pb-32 lg:px-14">
           <div className="grid grid-cols-1 gap-16 md:grid-cols-[1fr_1.1fr] md:gap-20 lg:gap-24">
-            {/* Left — copy */}
+            {/* Left: copy */}
             <Reveal className="md:sticky md:top-32 md:self-start">
               <p className="eyebrow">Book a call</p>
               <h1 className="display mt-5 text-[clamp(2.2rem,4.8vw,3.6rem)] text-ink">
@@ -63,7 +63,7 @@ export default function BookPage() {
               </div>
             </Reveal>
 
-            {/* Right — form */}
+            {/* Right: form */}
             <Reveal delay={0.1}>
               <div className="rounded-[28px] border border-hairline bg-[color:var(--cream-soft)] p-6 md:p-10">
                 <BookForm />

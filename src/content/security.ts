@@ -22,13 +22,13 @@ export const security = {
     italic: "watching 24/7.",
   },
   summary:
-    "One always-on agent protecting you, your family, and the systems your team relies on. Identity cleanup, breach intelligence, endpoint and email defense — plus invisible canary traps most platforms don't run.",
+    "One always-on agent protecting you, your family, and the systems your team relies on. Identity cleanup, breach intelligence, endpoint and email defense. Plus invisible canary traps most platforms don't run.",
   pillars: [
     {
       id: "canary",
       title: "Canary traps",
       summary:
-        "Invisible tripwires intruders hit the moment they probe — before they know it exists.",
+        "Invisible tripwires intruders hit the moment they probe, before they know it exists.",
       icon: Flag,
     },
     {
@@ -49,7 +49,7 @@ export const security = {
       id: "email",
       title: "Managed email defense",
       summary:
-        "Phishing, impersonation, exec BEC — triaged on M365 and Google Workspace with human handoff.",
+        "Phishing, impersonation, exec BEC. Triaged on M365 and Google Workspace with human handoff.",
       icon: Mail,
     },
     {

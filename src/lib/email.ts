@@ -3,7 +3,7 @@ import { Resend } from "resend";
 function getClient(): Resend | null {
   const apiKey = process.env.RESEND_API_KEY;
   if (!apiKey) {
-    console.warn("[email] RESEND_API_KEY not configured — falling back to log-only");
+    console.warn("[email] RESEND_API_KEY not configured, falling back to log-only");
     return null;
   }
   return new Resend(apiKey);
@@ -50,7 +50,7 @@ export async function sendBookingEmail(params: BookingEmailParams): Promise<{ ok
     const { error } = await client.emails.send({
       from: NOTIFY_FROM,
       to: NOTIFY_TO,
-      subject: `New booking — ${params.name}${params.company ? ` (${params.company})` : ""}`,
+      subject: `New booking from ${params.name}${params.company ? ` (${params.company})` : ""}`,
       replyTo: params.email,
       html: renderBody(params),
     });

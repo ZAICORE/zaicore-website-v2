@@ -29,7 +29,7 @@ export const disciplines = {
     italic: "built to ship.",
   },
   intro:
-    "Thirteen disciplines, one team, one bar. No framework tourism, no vendor lock-in fan fiction — an opinionated stack and people who've shipped it before.",
+    "Thirteen disciplines, one team, one bar. No framework tourism, no vendor lock-in fan fiction. An opinionated stack and people who've shipped it before.",
   items: [
     {
       id: "agents",
@@ -42,7 +42,7 @@ export const disciplines = {
       id: "context",
       title: "Context engineering",
       summary:
-        "The context window as a first-class architecture surface — not an afterthought prompt.",
+        "The context window as a first-class architecture surface. Not an afterthought prompt.",
       icon: Layers,
     },
     {
@@ -63,7 +63,7 @@ export const disciplines = {
       id: "product",
       title: "Full-stack product engineering",
       summary:
-        "Web, mobile, APIs — opinionated stack choices. Typed end-to-end, tested where it matters.",
+        "Web, mobile, APIs. Opinionated stack choices, typed end-to-end, tested where it matters.",
       icon: Globe2,
     },
     {
@@ -77,7 +77,7 @@ export const disciplines = {
       id: "cloud",
       title: "Cloud architecture & infrastructure",
       summary:
-        "Multi-region, IaC-first. Designed for agent-speed workloads — not human-centric load patterns.",
+        "Multi-region, IaC-first. Designed for agent-speed workloads, not human-centric load patterns.",
       icon: CloudCog,
     },
     {
@@ -98,7 +98,7 @@ export const disciplines = {
       id: "data",
       title: "Data engineering & pipelines",
       summary:
-        "The plumbing that keeps models grounded — clean data in, reliable retrieval out.",
+        "The plumbing that keeps models grounded. Clean data in, reliable retrieval out.",
       icon: Database,
     },
     {

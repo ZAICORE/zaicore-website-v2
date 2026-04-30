@@ -21,7 +21,7 @@ export function Hero() {
             className="w-full bg-transparent"
           />
 
-          {/* Tagline — anchored near the top of the scene */}
+          {/* Tagline, anchored near the top of the scene */}
           <div className="pointer-events-none absolute left-1/2 top-[22%] flex w-[min(38%,520px)] -translate-x-1/2 justify-center hero-tagline-wrap">
             <motion.p
               initial={{ opacity: 0, y: 12 }}
@@ -35,7 +35,7 @@ export function Hero() {
             </motion.p>
           </div>
 
-          {/* CTAs — overlaid on the video, vertical stack, glass cards */}
+          {/* CTAs overlaid on the video, vertical stack, glass cards */}
           <div className="pointer-events-none absolute inset-x-0 top-[52%] flex justify-center hero-ctas-wrap">
             <motion.div
               initial={{ opacity: 0, y: 12 }}
