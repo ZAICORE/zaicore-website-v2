@@ -159,7 +159,7 @@ export function ChatDock() {
   const hasMessages = visibleMessages.length > 0;
 
   return (
-    <div className="pointer-events-none fixed inset-x-0 bottom-0 z-50 flex justify-end px-3 pb-3 sm:px-4 sm:pb-5">
+    <div className="pointer-events-none fixed inset-x-0 bottom-0 z-50 flex justify-center px-3 pb-5 sm:px-4 sm:pb-7">
       <div className="pointer-events-auto flex w-full max-w-[400px] flex-col gap-2 sm:max-w-[420px]">
 
         {/* Message column (expanded + has content) */}
