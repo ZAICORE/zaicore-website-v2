@@ -41,6 +41,7 @@ export type ORRequest = {
   model?: string;
   temperature?: number;
   max_tokens?: number;
+  signal?: AbortSignal;
 };
 
 function getApiKey(): string {
@@ -69,6 +70,7 @@ export async function streamChat(req: ORRequest): Promise<Response> {
       "X-Title": "ZAICORE Chat Dock",
     },
     body: JSON.stringify(body),
+    signal: req.signal,
   });
 
   if (!res.ok || !res.body) {
@@ -105,6 +107,6 @@ export async function* parseSSE(
       }
     }
   } finally {
-    reader.releaseLock();
+    await reader.cancel().catch(() => {});
   }
 }

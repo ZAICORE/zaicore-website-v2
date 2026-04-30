@@ -108,7 +108,12 @@ export async function POST(req: Request) {
   const stream = new ReadableStream({
     async start(controller) {
       const send = (event: SSEEvent) => {
-        controller.enqueue(encoder.encode(encodeSSE(event)));
+        // I1: guard enqueue -- client may have disconnected, making this throw
+        try {
+          controller.enqueue(encoder.encode(encodeSSE(event)));
+        } catch {
+          // client gone -- swallow; the abort signal will unwind the loop
+        }
       };
 
       try {
@@ -122,7 +127,7 @@ export async function POST(req: Request) {
           // Primary model with one fallback retry on initial connection failure
           let res: Response;
           try {
-            res = await streamChat({ messages: orMessages, tools: TOOLS, model });
+            res = await streamChat({ messages: orMessages, tools: TOOLS, model, signal: req.signal });
           } catch (err) {
             if (model === PRIMARY_MODEL) {
               model = FALLBACK_MODEL;
@@ -130,6 +135,7 @@ export async function POST(req: Request) {
                 messages: orMessages,
                 tools: TOOLS,
                 model,
+                signal: req.signal,
               });
             } else {
               throw err;
