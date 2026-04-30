@@ -18,11 +18,11 @@ export type SecurityPillar = {
 export const security = {
   eyebrow: "Security",
   headline: {
-    lead: "An AI security agent,",
+    lead: "An AI security team,",
     italic: "watching 24/7.",
   },
   summary:
-    "One always-on agent protecting you, your family, and the systems your team relies on. Identity cleanup, breach intelligence, endpoint and email defense. Plus invisible canary traps most platforms don't run.",
+    "An always-on team protecting you, your family, and the systems your team relies on. Identity cleanup, breach intelligence, endpoint and email defense. Plus invisible canary traps most platforms don't run.",
   pillars: [
     {
       id: "canary",
