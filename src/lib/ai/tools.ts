@@ -77,6 +77,14 @@ export async function executeTool(
     };
   }
 
+  // I3: validate email format before handing to Resend
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(a.email)) {
+    return {
+      ok: false,
+      message: "Email format invalid. Ask the user to provide a real email.",
+    };
+  }
+
   const transcript = formatTranscript(conversation);
   const workingOnWithTranscript = `${a.workingOn}\n\n---\nConversation transcript:\n${transcript}`;
 
