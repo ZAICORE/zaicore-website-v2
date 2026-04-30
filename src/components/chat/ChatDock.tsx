@@ -4,7 +4,6 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { GlassBar } from "./GlassBar";
 import { MessageColumn } from "./MessageColumn";
-import { SuggestionChips } from "./SuggestionChips";
 import {
   loadConversation,
   saveConversation,
@@ -104,6 +103,25 @@ export function ChatDock() {
         let buffer = "";
         let assistantContent = "";
 
+        // Coalesce token updates into one render per animation frame instead of
+        // one per token. mimo-flash emits 30-50 tokens/sec; rendering each one
+        // causes visible jitter. rAF batching gives smooth ~60fps reveals.
+        let pendingFrame: number | null = null;
+        const flushContent = () => {
+          pendingFrame = null;
+          const snapshot = assistantContent;
+          setConv((prev) =>
+            prev
+              ? updateLastAssistantMessage(prev, (m) => ({ ...m, content: snapshot }))
+              : prev,
+          );
+        };
+        const scheduleFlush = () => {
+          if (pendingFrame === null) {
+            pendingFrame = requestAnimationFrame(flushContent);
+          }
+        };
+
         while (true) {
           const { done, value } = await reader.read();
           if (done) break;
@@ -126,18 +144,19 @@ export function ChatDock() {
 
             if (event.type === "token") {
               assistantContent += event.content;
-              const snapshot = assistantContent;
-              setConv((prev) =>
-                prev
-                  ? updateLastAssistantMessage(prev, (m) => ({ ...m, content: snapshot }))
-                  : prev,
-              );
+              scheduleFlush();
             } else if (event.type === "error") {
               throw new Error(event.message);
             }
             // tool_call / tool_result / done -- no visible UI action needed
           }
         }
+
+        // Flush any tail content before exiting the streaming state
+        if (pendingFrame !== null) {
+          cancelAnimationFrame(pendingFrame);
+        }
+        flushContent();
       } catch (err) {
         if (err instanceof Error && err.name === "AbortError") return;
         const msg = err instanceof Error ? err.message : "Something went wrong.";
@@ -159,7 +178,7 @@ export function ChatDock() {
   const hasMessages = visibleMessages.length > 0;
 
   return (
-    <div className="pointer-events-none fixed inset-x-0 bottom-0 z-50 flex justify-center px-3 pb-5 sm:px-4 sm:pb-7">
+    <div className="pointer-events-none fixed inset-x-0 bottom-0 z-50 flex justify-center px-3 pb-7 sm:px-4 sm:pb-10">
       <div className="pointer-events-auto flex w-full max-w-[400px] flex-col gap-2 sm:max-w-[420px]">
 
         {/* Message column (expanded + has content) */}
@@ -189,21 +208,6 @@ export function ChatDock() {
                   </motion.p>
                 )}
               </AnimatePresence>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        {/* Suggestion chips (idle only) */}
-        <AnimatePresence>
-          {!expanded && (
-            <motion.div
-              key="chips"
-              initial={{ opacity: 0, y: 8 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -4 }}
-              transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
-            >
-              <SuggestionChips onPick={(q) => void send(q)} />
             </motion.div>
           )}
         </AnimatePresence>
