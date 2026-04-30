@@ -114,6 +114,7 @@ export async function POST(req: Request) {
       try {
         let iteration = 0;
         let model = PRIMARY_MODEL;
+        let sentDone = false; // B1: track whether we already sent the done event
 
         while (iteration < MAX_TOOL_ITERATIONS) {
           iteration++;
@@ -176,6 +177,7 @@ export async function POST(req: Request) {
 
           // No tool calls -- stream is complete
           if (toolCallsAcc.size === 0) {
+            sentDone = true; // B1: mark so the trailing guard below doesn't double-emit
             send({ type: "done" });
             break;
           }
@@ -229,7 +231,8 @@ export async function POST(req: Request) {
         }
 
         // If we exhausted iterations without a done event, close cleanly
-        if (iteration >= MAX_TOOL_ITERATIONS) {
+        // B1: only emit if the natural-finish branch hasn't already sent one
+        if (!sentDone) {
           send({ type: "done" });
         }
       } catch (err) {
