@@ -61,13 +61,16 @@ export async function streamChat(req: ORRequest): Promise<Response> {
     tool_choice: req.tools ? "auto" : undefined,
   };
 
+  const referer = process.env.OPENROUTER_REFERER ?? "https://zaicore.com";
+  const title = process.env.OPENROUTER_TITLE ?? "ZAICORE Chat Dock";
+
   const res = await fetch(OPENROUTER_URL, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
       Authorization: `Bearer ${getApiKey()}`,
-      "HTTP-Referer": "https://zaicore.com",
-      "X-Title": "ZAICORE Chat Dock",
+      "HTTP-Referer": referer,
+      "X-Title": title,
     },
     body: JSON.stringify(body),
     signal: req.signal,
