@@ -40,6 +40,7 @@ export const people: Record<string, Person> = {
     bio: "Building AI engineering and applied security from Oakville.",
     city: "Oakville, ON",
     email: "zachary@zaicore.com",
+    phone: "+1 (905) 599-6864",
     linkedin: "https://www.linkedin.com/in/zacharyferguson/",
     website: "https://zaicore.com",
     // photo: "/p/zacharyferguson.jpg",   // drop a square image at /public/p/zacharyferguson.jpg to enable
