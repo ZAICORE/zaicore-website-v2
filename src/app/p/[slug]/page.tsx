@@ -3,6 +3,12 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { ArrowUpRight, ArrowDownToLine, Mail, Phone, Globe } from "lucide-react";
+import QRCode from "qrcode";
+import { Nav } from "@/components/layout/Nav";
+import { Footer } from "@/components/layout/Footer";
+import { people, type Person } from "@/content/people";
+import { site } from "@/content/site";
+import { ShareQR } from "./ShareQR";
 
 // Brand icons (lucide-react dropped trademarked logos; inline so the
 // LinkedIn / X / GitHub buttons keep their familiar marks).
@@ -27,10 +33,6 @@ function Github({ className, strokeWidth = 0 }: { className?: string; strokeWidt
     </svg>
   );
 }
-import { Nav } from "@/components/layout/Nav";
-import { Footer } from "@/components/layout/Footer";
-import { people, type Person } from "@/content/people";
-
 interface Props {
   params: Promise<{ slug: string }>;
 }
@@ -55,12 +57,21 @@ export default async function PersonPage({ params }: Props) {
   const { slug } = await params;
   const person = people[slug];
   if (!person) notFound();
+
+  const profileUrl = `${site.url}/p/${person.slug}`;
+  const qrSvg = await QRCode.toString(profileUrl, {
+    type: "svg",
+    errorCorrectionLevel: "M",
+    margin: 1,
+    color: { dark: "#0E0E10", light: "#FAF8F7" },
+  });
+
   return (
     <>
       <Nav />
       <main className="relative w-full bg-[color:var(--cream)] pt-28 pb-24 md:pt-36 md:pb-32">
         <div className="mx-auto w-full max-w-[680px] px-6 md:px-10">
-          <Card person={person} />
+          <Card person={person} profileUrl={profileUrl} qrSvg={qrSvg} />
         </div>
       </main>
       <Footer />
@@ -68,7 +79,7 @@ export default async function PersonPage({ params }: Props) {
   );
 }
 
-function Card({ person }: { person: Person }) {
+function Card({ person, profileUrl, qrSvg }: { person: Person; profileUrl: string; qrSvg: string }) {
   const initials = `${person.givenName[0] ?? ""}${person.familyName[0] ?? ""}`.toUpperCase();
 
   const actions: Array<{
@@ -197,8 +208,9 @@ function Card({ person }: { person: Person }) {
         <span className="h-px flex-1 max-w-[120px] bg-gradient-to-r from-transparent via-hairline-strong to-transparent" />
       </div>
 
-      {/* Action cards */}
+      {/* Action cards — Show QR is first so the owner can pull it up and share fast */}
       <div className="mt-10 grid w-full grid-cols-1 gap-3">
+        <ShareQR url={profileUrl} qrSvg={qrSvg} name={person.name} />
         {actions.map((a) => (
           <ActionCard key={a.label} {...a} />
         ))}
