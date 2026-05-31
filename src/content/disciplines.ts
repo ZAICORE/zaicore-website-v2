@@ -22,6 +22,13 @@ export type Discipline = {
   icon: LucideIcon;
 };
 
+export type DisciplineGroup = {
+  id: string;
+  label: string;
+  blurb: string;
+  items: Discipline[];
+};
+
 export const disciplines = {
   eyebrow: "Engineering",
   headline: {
@@ -29,98 +36,119 @@ export const disciplines = {
     italic: "built to ship.",
   },
   intro:
-    "Thirteen disciplines, one team, one bar. No framework tourism, no vendor lock-in fan fiction. An opinionated stack and people who've shipped it before.",
-  items: [
+    "The full range of what we build, from AI down to the infrastructure underneath it. One team, one bar, people who have shipped this before.",
+  groups: [
     {
-      id: "agents",
-      title: "Agentic systems",
-      summary:
-        "Tool-using, multi-step agents. MCP-native architecture. They finish what they start.",
-      icon: Bot,
-    },
-    {
-      id: "context",
-      title: "Context engineering",
-      summary:
-        "The context window as a first-class architecture surface. Not an afterthought prompt.",
-      icon: Layers,
-    },
-    {
-      id: "models",
-      title: "Model post-training",
-      summary:
-        "Fine-tuning, distillation, preference alignment. A model shaped to your domain and budget.",
-      icon: Atom,
-    },
-    {
-      id: "evals",
-      title: "Evals & AI observability",
-      summary:
-        "Traces, ground-truth regression, coding-agent harnesses. The layer that makes AI shippable.",
-      icon: LineChart,
-    },
-    {
-      id: "product",
-      title: "Full-stack product engineering",
-      summary:
-        "Web, mobile, APIs. Opinionated stack choices, typed end-to-end, tested where it matters.",
-      icon: Globe2,
+      id: "ai",
+      label: "AI systems",
+      blurb: "AI that takes real work off your team and holds up once it is live.",
+      items: [
+        {
+          id: "agents",
+          title: "Agents that take action",
+          summary:
+            "Software that completes multi-step tasks across your tools. It books, processes, and escalates, instead of just replying.",
+          icon: Bot,
+        },
+        {
+          id: "context",
+          title: "Grounded in your data",
+          summary:
+            "We feed the model the right information at the right moment, so answers come from your business, not a guess.",
+          icon: Layers,
+        },
+        {
+          id: "models",
+          title: "Models tuned to you",
+          summary:
+            "Off-the-shelf AI knows everything except your domain. We shape models to your data, your language, and your budget.",
+          icon: Atom,
+        },
+        {
+          id: "evals",
+          title: "Tested and monitored",
+          summary:
+            "Tracing, regression checks, and ground truth that catch the AI when it drifts. The layer that makes it safe to ship.",
+          icon: LineChart,
+        },
+      ],
     },
     {
       id: "platform",
-      title: "Platform engineering",
-      summary:
-        "Internal developer platforms and self-service infra so every team ships without rebuilding the stack.",
-      icon: ServerCog,
+      label: "Product and platform",
+      blurb: "The software and infrastructure your business actually runs on.",
+      items: [
+        {
+          id: "product",
+          title: "Full-stack product",
+          summary:
+            "Web, mobile, and APIs. Typed end to end, tested where it counts, built to last.",
+          icon: Globe2,
+        },
+        {
+          id: "cloud",
+          title: "Cloud and infrastructure",
+          summary:
+            "Multi-region infrastructure defined in code, built for real-world load and easy to run.",
+          icon: CloudCog,
+        },
+        {
+          id: "platform",
+          title: "Internal platforms",
+          summary:
+            "Self-service tooling so your teams ship fast without rebuilding the same stack every time.",
+          icon: ServerCog,
+        },
+        {
+          id: "design",
+          title: "Design and frontend",
+          summary:
+            "Interfaces and component systems that scale across products without slowing the team down.",
+          icon: Palette,
+        },
+        {
+          id: "devtools",
+          title: "Developer tooling",
+          summary:
+            "CLIs, SDKs, and integrations your engineers actually reach for, because someone built them right.",
+          icon: Terminal,
+        },
+        {
+          id: "perf",
+          title: "Performance and scale",
+          summary:
+            "Speed, throughput, and cost tuned so the system holds up as you grow, not just on launch day.",
+          icon: Gauge,
+        },
+      ],
     },
     {
-      id: "cloud",
-      title: "Cloud architecture & infrastructure",
-      summary:
-        "Multi-region, IaC-first. Designed for agent-speed workloads, not human-centric load patterns.",
-      icon: CloudCog,
+      id: "trust",
+      label: "Data, security and trust",
+      blurb: "The parts that keep everything safe, grounded, and compliant.",
+      items: [
+        {
+          id: "data",
+          title: "Data engineering",
+          summary:
+            "Clean pipelines that keep models grounded and reporting honest. Good data in, reliable answers out.",
+          icon: Database,
+        },
+        {
+          id: "security",
+          title: "Security engineering",
+          summary:
+            "Threat modeling, secure identity, and trust boundaries built for systems that can take action on their own.",
+          icon: ShieldCheck,
+        },
+        {
+          id: "governance",
+          title: "Governance and compliance",
+          summary:
+            "Audit logs, data lineage, and controls that keep you ready for rules like the EU AI Act.",
+          icon: ScrollText,
+        },
+      ],
     },
-    {
-      id: "security",
-      title: "Security engineering",
-      summary:
-        "AppSec, threat modeling, zero-trust identity. Trust boundaries built for agents that can act.",
-      icon: ShieldCheck,
-    },
-    {
-      id: "governance",
-      title: "AI governance & compliance",
-      summary:
-        "Policy-as-code, data lineage, bias audits, audit logs. EU AI Act and Colorado-ready.",
-      icon: ScrollText,
-    },
-    {
-      id: "data",
-      title: "Data engineering & pipelines",
-      summary:
-        "The plumbing that keeps models grounded. Clean data in, reliable retrieval out.",
-      icon: Database,
-    },
-    {
-      id: "design",
-      title: "Design systems & frontend craft",
-      summary:
-        "Component architectures that scale across products without becoming a design tax.",
-      icon: Palette,
-    },
-    {
-      id: "devtools",
-      title: "Developer tooling",
-      summary:
-        "CLIs, SDKs, MCP servers. The tools engineers reach for because someone made them right.",
-      icon: Terminal,
-    },
-    {
-      id: "perf",
-      title: "Performance & scaling",
-      summary:
-        "Latency budgets, throughput ceilings, cost floors. Cost-per-token is now a product dimension.",
-      icon: Gauge,
-    },
-  ] satisfies Discipline[],
+  ] satisfies DisciplineGroup[],
 };

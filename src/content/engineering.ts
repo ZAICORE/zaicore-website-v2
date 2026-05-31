@@ -1,5 +1,5 @@
 import type { LucideIcon } from "lucide-react";
-import { Bot, Atom, LineChart } from "lucide-react";
+import { Bot, Layers, ShieldCheck } from "lucide-react";
 
 export type Vertical = {
   id: string;
@@ -11,32 +11,32 @@ export type Vertical = {
 export const engineering = {
   eyebrow: "Engineering",
   headline: {
-    lead: "AI-first engineering,",
-    italic: "shipped to production.",
+    lead: "AI and software,",
+    italic: "built to ship.",
   },
   intro:
-    "The software off-the-shelf can't build. We ship AI that takes action, fits how your business actually works, and keeps working in production.",
+    "We build AI and software that becomes your competitive edge. It fits how your business already works, ships to production, and you own it.",
   verticals: [
     {
-      id: "agentic",
-      title: "AI that actually does the work",
+      id: "ai",
+      title: "AI that does the busywork",
       summary:
-        "Agents wired into your real tools. They book, process, escalate, close the loop. Not chatbots that suggest. Software that finishes.",
+        "Plugs into the tools you already run, kills the repetitive work, and handles the workflows your team does by hand today.",
       icon: Bot,
     },
     {
-      id: "models",
-      title: "Models built for your business",
+      id: "software",
+      title: "The hard software underneath",
       summary:
-        "Off-the-shelf AI was trained on everything except your domain. We build systems on your data, your language, your edge cases, so the AI sounds like you and knows what matters.",
-      icon: Atom,
+        "Full-stack product, cloud, data, the infrastructure your business runs on. Typed end to end, built to outlast whoever wrote it. You own the IP.",
+      icon: Layers,
     },
     {
-      id: "evals",
-      title: "AI you can bet the business on",
+      id: "reliability",
+      title: "Built to bet the business on",
       summary:
-        "The reason most AI dies in production: nobody built the layer that catches it when it drifts. We do. Testing, monitoring, the ground truth your team can stand behind.",
-      icon: LineChart,
+        "The eval layer, monitoring, and security that keep AI and software reliable in production, where most of it quietly dies. The part nobody else bothers to build.",
+      icon: ShieldCheck,
     },
   ] satisfies Vertical[],
   cta: { label: "Explore engineering", href: "/engineering" },

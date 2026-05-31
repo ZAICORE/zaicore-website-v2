@@ -45,10 +45,12 @@ export const KNOWLEDGE: Knowledge = {
     title: v.title,
     summary: v.summary,
   })),
-  disciplines: disciplines.items.map((d) => ({
-    title: d.title,
-    summary: d.summary,
-  })),
+  disciplines: disciplines.groups.flatMap((g) =>
+    g.items.map((d) => ({
+      title: d.title,
+      summary: d.summary,
+    }))
+  ),
   securityPillars: security.pillars.map((p) => ({
     title: p.title,
     summary: p.summary,
