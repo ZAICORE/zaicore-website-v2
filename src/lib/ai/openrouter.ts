@@ -2,8 +2,16 @@ import type { ToolDefinition } from "./tools";
 
 const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
 
-export const PRIMARY_MODEL = "xiaomi/mimo-v2-flash";
-export const FALLBACK_MODEL = "x-ai/grok-4.1-fast";
+// Both must support tool-calling — the dock passes TOOLS on every request.
+// Separate vendors on purpose: mimo-v2-flash and grok-4.1-fast were both
+// deprecated in the same window, which took the dock down entirely.
+//
+// Gemini leads because it streams answer text from the first chunk. mimo-v2.5
+// is a reasoning model — it emits `delta.reasoning` for a while before any
+// `delta.content`, and this route forwards only content, so as primary it
+// would leave the dock silent while it thinks.
+export const PRIMARY_MODEL = "google/gemini-3.1-flash-lite";
+export const FALLBACK_MODEL = "xiaomi/mimo-v2.5";
 
 export type ORMessage = {
   role: "system" | "user" | "assistant" | "tool";
