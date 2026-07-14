@@ -63,6 +63,6 @@ export const people: Record<string, Person> = {
     phone: "+1 (905) 464-5920",
     linkedin: "https://ca.linkedin.com/in/jaymesonvm",
     website: "https://zaicore.com",
-    // photo: "/p/jaymesonvasilakosmcrae.jpg",
+    photo: "/p/jaymesonvasilakosmcrae.jpg",
   },
 };
