@@ -26,6 +26,8 @@ export interface Person {
   github?: string;
   website?: string;
   photo?: string;
+  /** Overrides the givenName+familyName default — for compound surnames. */
+  initials?: string;
 }
 
 export const people: Record<string, Person> = {
@@ -44,5 +46,23 @@ export const people: Record<string, Person> = {
     linkedin: "https://www.linkedin.com/in/zacharyferguson/",
     website: "https://zaicore.com",
     // photo: "/p/zacharyferguson.jpg",   // drop a square image at /public/p/zacharyferguson.jpg to enable
+  },
+
+  jaymesonvasilakosmcrae: {
+    slug: "jaymesonvasilakosmcrae",
+    name: "Jaymeson Vasilakos McRae",
+    givenName: "Jaymeson",
+    familyName: "Vasilakos McRae",
+    initials: "JM",
+    title: "Chief Revenue Officer",
+    company: "ZAICORE",
+    companyUrl: "https://zaicore.com",
+    bio: "Driving growth and revenue strategy across ZAICORE's engineering and security work.",
+    city: "Oakville, ON",
+    email: "jaymeson@zaicore.com",
+    phone: "+1 (905) 464-5920",
+    linkedin: "https://ca.linkedin.com/in/jaymesonvm",
+    website: "https://zaicore.com",
+    // photo: "/p/jaymesonvasilakosmcrae.jpg",
   },
 };

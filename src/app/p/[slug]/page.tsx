@@ -80,7 +80,9 @@ export default async function PersonPage({ params }: Props) {
 }
 
 function Card({ person, profileUrl, qrSvg }: { person: Person; profileUrl: string; qrSvg: string }) {
-  const initials = `${person.givenName[0] ?? ""}${person.familyName[0] ?? ""}`.toUpperCase();
+  const initials = (
+    person.initials ?? `${person.givenName[0] ?? ""}${person.familyName[0] ?? ""}`
+  ).toUpperCase();
 
   const actions: Array<{
     label: string;
