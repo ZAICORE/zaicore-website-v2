@@ -39,6 +39,58 @@ function renderBody(p: BookingEmailParams) {
 </body></html>`;
 }
 
+const ALERT_FROM = process.env.ALERT_FROM ?? "ZAICORE Alerts <alerts@zaicore.com>";
+const ALERT_TO = process.env.ALERT_TO ?? "zachary@zaicore.com";
+
+export type AlertEmailParams = {
+  subject: string;
+  headline: string;
+  problems: string[];
+  detail?: string;
+};
+
+export async function sendAlertEmail(p: AlertEmailParams): Promise<{ ok: boolean; reason?: string }> {
+  const client = getClient();
+  if (!client) {
+    console.error("[alert] NOT SENT (no Resend key):", p.subject, p.problems);
+    return { ok: false, reason: "no-resend-key" };
+  }
+
+  const escape = (s: string) =>
+    s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+  const html = `<!doctype html><html><body style="font-family:system-ui,-apple-system,sans-serif;line-height:1.55;color:#0e0e10;max-width:600px;margin:0 auto;padding:32px 24px;">
+  <h2 style="font-weight:500;letter-spacing:-0.02em;margin:0 0 8px;">${escape(p.headline)}</h2>
+  <p style="margin:0 0 24px;font-size:13px;color:#6b6b72;">zaicore.com · chat dock health check</p>
+  <ul style="margin:0;padding-left:18px;font-size:14px;">
+    ${p.problems.map((x) => `<li style="margin-bottom:8px;">${escape(x)}</li>`).join("")}
+  </ul>
+  ${
+    p.detail
+      ? `<pre style="margin-top:24px;padding:16px;background:#f4f1ee;border-radius:12px;font-size:12px;white-space:pre-wrap;overflow-x:auto;">${escape(p.detail)}</pre>`
+      : ""
+  }
+  <p style="margin-top:32px;font-size:12px;color:#9a9aa1;">Models are configured in <code>src/lib/ai/openrouter.ts</code>.</p>
+</body></html>`;
+
+  try {
+    const { error } = await client.emails.send({
+      from: ALERT_FROM,
+      to: ALERT_TO,
+      subject: p.subject,
+      html,
+    });
+    if (error) {
+      console.error("[alert] Resend returned error:", error);
+      return { ok: false, reason: error.message };
+    }
+    return { ok: true };
+  } catch (err) {
+    console.error("[alert] send failed:", err);
+    return { ok: false, reason: err instanceof Error ? err.message : "unknown" };
+  }
+}
+
 export async function sendBookingEmail(params: BookingEmailParams): Promise<{ ok: boolean; reason?: string }> {
   const client = getClient();
   if (!client) {
