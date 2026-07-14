@@ -194,7 +194,7 @@ function Card({ person, profileUrl, qrSvg }: { person: Person; profileUrl: strin
       </p>
 
       {/* Bio */}
-      <p className="serif-italic mt-7 max-w-[420px] text-[1.1rem] leading-[1.45] text-ink/85">
+      <p className="mt-7 max-w-[420px] text-[1.0625rem] leading-[1.6] text-ink/80">
         {person.bio}
       </p>
       {person.city && (
