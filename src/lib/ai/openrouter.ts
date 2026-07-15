@@ -6,12 +6,18 @@ const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
 // Separate vendors on purpose: mimo-v2-flash and grok-4.1-fast were both
 // deprecated in the same window, which took the dock down entirely.
 //
-// Gemini leads because it streams answer text from the first chunk. mimo-v2.5
-// is a reasoning model — it emits `delta.reasoning` for a while before any
-// `delta.content`, and this route forwards only content, so as primary it
-// would leave the dock silent while it thinks.
+// Gemini leads because it streams answer text from the first chunk.
+//
+// The fallback must NOT be a reasoning model: this route forwards only
+// `delta.content`, so a model that spends its token budget on `delta.reasoning`
+// first (mimo-v2.5, qwen3 …) leaves the dock silent — that is exactly how the
+// old xiaomi/mimo-v2.5 fallback shipped empty replies AND tripped the health
+// check. llama-3.3-70b is a plain instruct model, answers from the first token,
+// is served by ~12 providers on OpenRouter (so a single provider outage doesn't
+// take it down), and is a different vendor than the Google primary — real
+// redundancy, not two Google models that could deprecate together.
 export const PRIMARY_MODEL = "google/gemini-3.1-flash-lite";
-export const FALLBACK_MODEL = "xiaomi/mimo-v2.5";
+export const FALLBACK_MODEL = "meta-llama/llama-3.3-70b-instruct";
 
 export type ORMessage = {
   role: "system" | "user" | "assistant" | "tool";

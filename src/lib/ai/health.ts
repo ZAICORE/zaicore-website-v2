@@ -57,12 +57,9 @@ async function probe(model: string, apiKey: string): Promise<{ ok: boolean; ms: 
     const res = await fetch(COMPLETIONS_URL, {
       method: "POST",
       headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
-      // max_tokens is deliberately generous: reasoning models (mimo-v2.5)
-      // spend completion tokens thinking before they emit any content, and a
-      // tight cap makes a healthy model look broken.
       body: JSON.stringify({
         model,
-        messages: [{ role: "user", content: "ping" }],
+        messages: [{ role: "user", content: "Reply with exactly: pong" }],
         max_tokens: 64,
       }),
       signal: AbortSignal.timeout(30_000),
@@ -73,8 +70,26 @@ async function probe(model: string, apiKey: string): Promise<{ ok: boolean; ms: 
       return { ok: false, ms, error: `HTTP ${res.status}: ${text}` };
     }
     // A 200 can still carry an error envelope.
-    const body = (await res.json()) as { error?: { message?: string } };
+    const body = (await res.json()) as {
+      error?: { message?: string };
+      choices?: Array<{ finish_reason?: string; message?: { content?: string } }>;
+    };
     if (body.error) return { ok: false, ms, error: body.error.message ?? "unknown error" };
+
+    // The dock forwards only message content, so "healthy" means the model
+    // actually EMITS content — not merely that OpenRouter returned 200. A
+    // reasoning model that burns its whole budget thinking returns an empty
+    // string with finish_reason "length"; that is a broken chat model for our
+    // purposes and must fail here, or the check greenlights a silent dock.
+    const choice = body.choices?.[0];
+    const content = choice?.message?.content?.trim() ?? "";
+    if (!content) {
+      return {
+        ok: false,
+        ms,
+        error: `returned no content (finish_reason: ${choice?.finish_reason ?? "none"}) — not a usable chat model`,
+      };
+    }
     return { ok: true, ms };
   } catch (err) {
     return {
