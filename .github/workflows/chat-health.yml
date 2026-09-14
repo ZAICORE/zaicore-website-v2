@@ -37,7 +37,7 @@ jobs:
           code=$(curl -sSL -o /tmp/health.json -w '%{http_code}' \
             --max-time 90 \
             -H "Authorization: Bearer ${CRON_SECRET}" \
-            https://zaicore.com/api/cron/chat-health || echo "000")
+            https://www.zaicore.com/api/cron/chat-health || echo "000")
 
           echo "HTTP $code"
           cat /tmp/health.json 2>/dev/null || echo "(no body)"
